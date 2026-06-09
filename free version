@@ -168,24 +168,15 @@ local TextLabel_25 = Instance.new("TextLabel")
 local UIStroke_50 = Instance.new("UIStroke")
 local WipButton_16 = Instance.new("TextButton")
 local UIStroke_51 = Instance.new("UIStroke")
+local AnimSpeed = Instance.new("TextBox")
 local TextLabel_26 = Instance.new("TextLabel")
 local UIStroke_52 = Instance.new("UIStroke")
 local WipButton_17 = Instance.new("TextButton")
 local UIStroke_53 = Instance.new("UIStroke")
-local AnimSpeed = Instance.new("TextBox")
 local TextLabel_27 = Instance.new("TextLabel")
 local UIStroke_54 = Instance.new("UIStroke")
 local WipButton_18 = Instance.new("TextButton")
 local UIStroke_55 = Instance.new("UIStroke")
-local TextLabel_28 = Instance.new("TextLabel")
-local UIStroke_56 = Instance.new("UIStroke")
-local WipButton_19 = Instance.new("TextButton")
-local UIStroke_57 = Instance.new("UIStroke")
-local TextLabel_29 = Instance.new("TextLabel")
-local TextLabel_30 = Instance.new("TextLabel")
-local UIStroke_58 = Instance.new("UIStroke")
-local WipButton_20 = Instance.new("TextButton")
-local UIStroke_59 = Instance.new("UIStroke")
 
 --Properties:
 
@@ -1545,10 +1536,10 @@ UIStroke_49.Parent = TextLabel_23
 TextLabel_25.Parent = TabFrame3
 TextLabel_25.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 TextLabel_25.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_25.Position = UDim2.new(0.0105319554, 0, 0.484296799, 0)
+TextLabel_25.Position = UDim2.new(0.0138989585, 0, 0.475680947, 0)
 TextLabel_25.Size = UDim2.new(0, 282, 0, 27)
 TextLabel_25.Font = Enum.Font.SourceSans
-TextLabel_25.Text = "AutoKillDead"
+TextLabel_25.Text = "FastHit"
 TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_25.TextSize = 14.000
 TextLabel_25.TextStrokeTransparency = 0.000
@@ -1575,13 +1566,28 @@ UIStroke_51.Color = Color3.fromRGB(84, 86, 86)
 UIStroke_51.Thickness = 1.399999976158142
 UIStroke_51.Parent = WipButton_16
 
+AnimSpeed.Name = "AnimSpeed"
+AnimSpeed.Parent = TextLabel_25
+AnimSpeed.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+AnimSpeed.BorderColor3 = Color3.fromRGB(255, 0, 0)
+AnimSpeed.Position = UDim2.new(0.599290788, 0, 0.259259254, 0)
+AnimSpeed.Size = UDim2.new(0, 56, 0, 15)
+AnimSpeed.Font = Enum.Font.SourceSans
+AnimSpeed.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+AnimSpeed.PlaceholderText = "Speed"
+AnimSpeed.Text = ""
+AnimSpeed.TextColor3 = Color3.fromRGB(255, 255, 255)
+AnimSpeed.TextScaled = true
+AnimSpeed.TextSize = 5.000
+AnimSpeed.TextWrapped = true
+
 TextLabel_26.Parent = TabFrame3
 TextLabel_26.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 TextLabel_26.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_26.Position = UDim2.new(0.0105319554, 0, 0.569878936, 0)
+TextLabel_26.Position = UDim2.new(0.0138989585, 0, 0.741213918, 0)
 TextLabel_26.Size = UDim2.new(0, 282, 0, 27)
 TextLabel_26.Font = Enum.Font.SourceSans
-TextLabel_26.Text = "FastHit"
+TextLabel_26.Text = "AutoHit"
 TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_26.TextSize = 14.000
 TextLabel_26.TextStrokeTransparency = 0.000
@@ -1608,28 +1614,13 @@ UIStroke_53.Color = Color3.fromRGB(84, 86, 86)
 UIStroke_53.Thickness = 1.399999976158142
 UIStroke_53.Parent = WipButton_17
 
-AnimSpeed.Name = "AnimSpeed"
-AnimSpeed.Parent = TextLabel_26
-AnimSpeed.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-AnimSpeed.BorderColor3 = Color3.fromRGB(255, 0, 0)
-AnimSpeed.Position = UDim2.new(0.599290788, 0, 0.259259254, 0)
-AnimSpeed.Size = UDim2.new(0, 56, 0, 15)
-AnimSpeed.Font = Enum.Font.SourceSans
-AnimSpeed.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-AnimSpeed.PlaceholderText = "Speed"
-AnimSpeed.Text = ""
-AnimSpeed.TextColor3 = Color3.fromRGB(255, 255, 255)
-AnimSpeed.TextScaled = true
-AnimSpeed.TextSize = 5.000
-AnimSpeed.TextWrapped = true
-
 TextLabel_27.Parent = TabFrame3
 TextLabel_27.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 TextLabel_27.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_27.Position = UDim2.new(0.0138989585, 0, 0.741213918, 0)
+TextLabel_27.Position = UDim2.new(0.0138989585, 0, 0.818009913, 0)
 TextLabel_27.Size = UDim2.new(0, 282, 0, 27)
 TextLabel_27.Font = Enum.Font.SourceSans
-TextLabel_27.Text = "AutoHit"
+TextLabel_27.Text = "AutoBoxingGloves"
 TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_27.TextSize = 14.000
 TextLabel_27.TextStrokeTransparency = 0.000
@@ -1656,88 +1647,9 @@ UIStroke_55.Color = Color3.fromRGB(84, 86, 86)
 UIStroke_55.Thickness = 1.399999976158142
 UIStroke_55.Parent = WipButton_18
 
-TextLabel_28.Parent = TabFrame3
-TextLabel_28.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-TextLabel_28.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_28.Position = UDim2.new(0.0138989585, 0, 0.818009913, 0)
-TextLabel_28.Size = UDim2.new(0, 282, 0, 27)
-TextLabel_28.Font = Enum.Font.SourceSans
-TextLabel_28.Text = "AutoBoxingGloves"
-TextLabel_28.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_28.TextSize = 14.000
-TextLabel_28.TextStrokeTransparency = 0.000
-TextLabel_28.TextXAlignment = Enum.TextXAlignment.Left
-
-UIStroke_56.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_56.Color = Color3.fromRGB(84, 86, 86)
-UIStroke_56.Thickness = 1.7999999523162842
-UIStroke_56.Parent = TextLabel_28
-
-WipButton_19.Name = "WipButton"
-WipButton_19.Parent = TextLabel_28
-WipButton_19.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-WipButton_19.BorderColor3 = Color3.fromRGB(27, 42, 53)
-WipButton_19.Position = UDim2.new(0.897163093, 0, 0.259259254, 0)
-WipButton_19.Size = UDim2.new(0, 15, 0, 15)
-WipButton_19.Font = Enum.Font.SourceSans
-WipButton_19.Text = ""
-WipButton_19.TextColor3 = Color3.fromRGB(0, 0, 0)
-WipButton_19.TextSize = 14.000
-
-UIStroke_57.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_57.Color = Color3.fromRGB(84, 86, 86)
-UIStroke_57.Thickness = 1.399999976158142
-UIStroke_57.Parent = WipButton_19
-
-TextLabel_29.Parent = TabFrame3
-TextLabel_29.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-TextLabel_29.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_29.Position = UDim2.new(0.00932943914, 0, 0.657592058, 0)
-TextLabel_29.Size = UDim2.new(0, 282, 0, 27)
-TextLabel_29.Font = Enum.Font.SourceSans
-TextLabel_29.Text = ""
-TextLabel_29.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_29.TextSize = 14.000
-TextLabel_29.TextStrokeTransparency = 0.000
-TextLabel_29.TextXAlignment = Enum.TextXAlignment.Left
-
-TextLabel_30.Parent = TextLabel_29
-TextLabel_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_30.BackgroundTransparency = 1.000
-TextLabel_30.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_30.Position = UDim2.new(0.00709219836, 0, -0.00925925933, 0)
-TextLabel_30.Size = UDim2.new(0, 72, 0, 27)
-TextLabel_30.Font = Enum.Font.SourceSans
-TextLabel_30.Text = "FasterHitAura"
-TextLabel_30.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_30.TextSize = 14.000
-TextLabel_30.TextStrokeTransparency = 0.000
-TextLabel_30.TextXAlignment = Enum.TextXAlignment.Left
-
-UIStroke_58.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_58.Color = Color3.fromRGB(84, 86, 86)
-UIStroke_58.Thickness = 1.7999999523162842
-UIStroke_58.Parent = TextLabel_29
-
-WipButton_20.Name = "WipButton"
-WipButton_20.Parent = TextLabel_29
-WipButton_20.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-WipButton_20.BorderColor3 = Color3.fromRGB(27, 42, 53)
-WipButton_20.Position = UDim2.new(0.90780133, 0, 0.233796299, 0)
-WipButton_20.Size = UDim2.new(0, 15, 0, 15)
-WipButton_20.Font = Enum.Font.SourceSans
-WipButton_20.Text = ""
-WipButton_20.TextColor3 = Color3.fromRGB(0, 0, 0)
-WipButton_20.TextSize = 14.000
-
-UIStroke_59.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_59.Color = Color3.fromRGB(84, 86, 86)
-UIStroke_59.Thickness = 1.399999976158142
-UIStroke_59.Parent = WipButton_20
-
 -- Scripts:
 
-local function TIBUE_fake_script() -- OutlastHubNormal.NotificationScript 
+local function YJEJ_fake_script() -- OutlastHubNormal.NotificationScript 
 	local script = Instance.new('LocalScript', OutlastHubNormal)
 
 	local StarterGui = game:GetService("StarterGui")
@@ -1772,8 +1684,8 @@ local function TIBUE_fake_script() -- OutlastHubNormal.NotificationScript
 		end
 	end)
 end
-coroutine.wrap(TIBUE_fake_script)()
-local function VAAA_fake_script() -- Toggle.LocalScript 
+coroutine.wrap(YJEJ_fake_script)()
+local function GXAQB_fake_script() -- Toggle.LocalScript 
 	local script = Instance.new('LocalScript', Toggle)
 
 	local back = script.Parent.Parent.BackGround
@@ -1803,8 +1715,8 @@ local function VAAA_fake_script() -- Toggle.LocalScript
 		end)
 	
 end
-coroutine.wrap(VAAA_fake_script)()
-local function KZFSP_fake_script() -- Frame.LocalScript 
+coroutine.wrap(GXAQB_fake_script)()
+local function YLUULJ_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local dragger = {}
@@ -1885,8 +1797,8 @@ local function KZFSP_fake_script() -- Frame.LocalScript
 	frame.Active = true
 	frame.Draggable = true -- disable old roblox drag (we use custom)
 end
-coroutine.wrap(KZFSP_fake_script)()
-local function HAHIKYX_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(YLUULJ_fake_script)()
+local function KAZCA_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	local Players = game:GetService("Players")
@@ -1987,8 +1899,8 @@ local function HAHIKYX_fake_script() -- TextLabel.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(HAHIKYX_fake_script)()
-local function TGZJ_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(KAZCA_fake_script)()
+local function FGAUE_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	local Players = game:GetService("Players")
@@ -2054,8 +1966,8 @@ local function TGZJ_fake_script() -- TextLabel_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TGZJ_fake_script)()
-local function AJMKH_fake_script() -- TextLabel_3.LocalScript 
+coroutine.wrap(FGAUE_fake_script)()
+local function JUEAT_fake_script() -- TextLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_3)
 
 	local RunService = game:GetService("RunService")
@@ -2109,8 +2021,8 @@ local function AJMKH_fake_script() -- TextLabel_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AJMKH_fake_script)()
-local function FNAJHVF_fake_script() -- bSliderFrame.mainScript 
+coroutine.wrap(JUEAT_fake_script)()
+local function KBKBOLB_fake_script() -- bSliderFrame.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame)
 
 	local Players = game:GetService("Players")
@@ -2304,8 +2216,8 @@ local function FNAJHVF_fake_script() -- bSliderFrame.mainScript
 		end
 	end)
 end
-coroutine.wrap(FNAJHVF_fake_script)()
-local function MAUPW_fake_script() -- TextLabel_6.LocalScript 
+coroutine.wrap(KBKBOLB_fake_script)()
+local function EPRJLP_fake_script() -- TextLabel_6.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_6)
 
 	local Players = game:GetService("Players")
@@ -2350,8 +2262,8 @@ local function MAUPW_fake_script() -- TextLabel_6.LocalScript
 		DestroyCell(child)
 	end)
 end
-coroutine.wrap(MAUPW_fake_script)()
-local function XWJQVAQ_fake_script() -- bSliderFrame_2.mainScript 
+coroutine.wrap(EPRJLP_fake_script)()
+local function SQVMP_fake_script() -- bSliderFrame_2.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_2)
 
 	local Players = game:GetService("Players")
@@ -2493,8 +2405,8 @@ local function XWJQVAQ_fake_script() -- bSliderFrame_2.mainScript
 	local initialPos = (currentSpeed - MIN_SPEED) / (MAX_SPEED - MIN_SPEED)
 	updateSlider(initialPos)
 end
-coroutine.wrap(XWJQVAQ_fake_script)()
-local function UJTIV_fake_script() -- bSliderFrame_3.mainScript 
+coroutine.wrap(SQVMP_fake_script)()
+local function VPKOQB_fake_script() -- bSliderFrame_3.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_3)
 
 	local Players = game:GetService("Players")
@@ -2621,8 +2533,8 @@ local function UJTIV_fake_script() -- bSliderFrame_3.mainScript
 	-- Display initial slider value
 	amountValue.Text = tostring(currentSpeed)
 end
-coroutine.wrap(UJTIV_fake_script)()
-local function QWDGFPZ_fake_script() -- TextLabel_11.LocalScript 
+coroutine.wrap(VPKOQB_fake_script)()
+local function HHQDQU_fake_script() -- TextLabel_11.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_11)
 
 	local Players = game:GetService("Players")
@@ -2666,8 +2578,8 @@ local function QWDGFPZ_fake_script() -- TextLabel_11.LocalScript
 	
 	
 end
-coroutine.wrap(QWDGFPZ_fake_script)()
-local function UQDYNVZ_fake_script() -- Tab1Button.LocalScript 
+coroutine.wrap(HHQDQU_fake_script)()
+local function KYETFZ_fake_script() -- Tab1Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab1Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2682,8 +2594,8 @@ local function UQDYNVZ_fake_script() -- Tab1Button.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(UQDYNVZ_fake_script)()
-local function GIMJZU_fake_script() -- Tab2Button.LocalScript 
+coroutine.wrap(KYETFZ_fake_script)()
+local function VVIBJR_fake_script() -- Tab2Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab2Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2698,8 +2610,8 @@ local function GIMJZU_fake_script() -- Tab2Button.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(GIMJZU_fake_script)()
-local function HJJVNXA_fake_script() -- Tab4Button.LocalScript 
+coroutine.wrap(VVIBJR_fake_script)()
+local function GAYU_fake_script() -- Tab4Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab4Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2714,8 +2626,8 @@ local function HJJVNXA_fake_script() -- Tab4Button.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(HJJVNXA_fake_script)()
-local function QUVS_fake_script() -- bSliderFrame_4.mainScript 
+coroutine.wrap(GAYU_fake_script)()
+local function BCVGTCI_fake_script() -- bSliderFrame_4.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_4)
 
 	local UIS = game:GetService("UserInputService")
@@ -2811,8 +2723,8 @@ local function QUVS_fake_script() -- bSliderFrame_4.mainScript
 		end)
 	end
 end
-coroutine.wrap(QUVS_fake_script)()
-local function DHZOM_fake_script() -- bSliderFrame_5.mainScript 
+coroutine.wrap(BCVGTCI_fake_script)()
+local function EFVI_fake_script() -- bSliderFrame_5.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_5)
 
 	local Players = game:GetService("Players")
@@ -3009,8 +2921,8 @@ local function DHZOM_fake_script() -- bSliderFrame_5.mainScript
 		end)
 	end
 end
-coroutine.wrap(DHZOM_fake_script)()
-local function ZFMEWQV_fake_script() -- AutoBuy.LocalScript 
+coroutine.wrap(EFVI_fake_script)()
+local function XZBVZIC_fake_script() -- AutoBuy.LocalScript 
 	local script = Instance.new('LocalScript', AutoBuy)
 
 	local Players = game:GetService("Players")
@@ -3054,8 +2966,8 @@ local function ZFMEWQV_fake_script() -- AutoBuy.LocalScript
 	
 	
 end
-coroutine.wrap(ZFMEWQV_fake_script)()
-local function VFUMD_fake_script() -- Rejoin.LocalScript 
+coroutine.wrap(XZBVZIC_fake_script)()
+local function YHBD_fake_script() -- Rejoin.LocalScript 
 	local script = Instance.new('LocalScript', Rejoin)
 
 	local button = script.Parent
@@ -3086,8 +2998,8 @@ local function VFUMD_fake_script() -- Rejoin.LocalScript
 	end)
 	
 end
-coroutine.wrap(VFUMD_fake_script)()
-local function DHYEZSV_fake_script() -- TextLabel_16.LocalScript 
+coroutine.wrap(YHBD_fake_script)()
+local function JNRLYM_fake_script() -- TextLabel_16.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_16)
 
 	local Toggle = false
@@ -3118,8 +3030,8 @@ local function DHYEZSV_fake_script() -- TextLabel_16.LocalScript
 	button.MouseButton1Click:Connect(toggleAntiAFK)
 	
 end
-coroutine.wrap(DHYEZSV_fake_script)()
-local function LXUEUJV_fake_script() -- TextLabel_17.LocalScript 
+coroutine.wrap(JNRLYM_fake_script)()
+local function CQSRE_fake_script() -- TextLabel_17.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_17)
 
 	local Toggle = false
@@ -3141,8 +3053,8 @@ local function LXUEUJV_fake_script() -- TextLabel_17.LocalScript
 	
 	button.MouseButton1Click:Connect(toggleAntiVoid)
 end
-coroutine.wrap(LXUEUJV_fake_script)()
-local function NKLD_fake_script() -- Tab3Button.LocalScript 
+coroutine.wrap(CQSRE_fake_script)()
+local function GETE_fake_script() -- Tab3Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab3Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -3157,8 +3069,8 @@ local function NKLD_fake_script() -- Tab3Button.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(NKLD_fake_script)()
-local function YRYHUKT_fake_script() -- TargetHit.LocalScript 
+coroutine.wrap(GETE_fake_script)()
+local function ZTSKA_fake_script() -- TargetHit.LocalScript 
 	local script = Instance.new('LocalScript', TargetHit)
 
 	local Players = game:GetService("Players")
@@ -3185,54 +3097,19 @@ local function YRYHUKT_fake_script() -- TargetHit.LocalScript
 	local currentHand = "RightHand"
 	local wipEnabled = false
 	local currentTarget = nil
-	local currentClass = nil
 	
-	-- Animation-Based Class Detection
-	local stylesFolder = character:WaitForChild("Core"):WaitForChild("Animations"):WaitForChild("Styles")
-	local animationClassMap = {}
-	
-	local function getIdNumber(animation)
-		if not animation or not animation.AnimationId then return nil end
-		local id = animation.AnimationId:match("%d+")
-		return id and tonumber(id)
-	end
-	
-	local function scanStyles(folder, className)
-		for _, child in pairs(folder:GetChildren()) do
-			if child:IsA("Animation") then
-				local id = getIdNumber(child)
-				if id then
-					animationClassMap[id] = className
-				end
-			elseif child:IsA("Folder") then
-				scanStyles(child, className)
+	-- =========================
+	-- LEADERSTATS CLASS CHECKER
+	-- =========================
+	local function getClassValue()
+		local leaderstats = player:FindFirstChild("leaderstats")
+		if leaderstats then
+			local classStat = leaderstats:FindFirstChild("Class")
+			if classStat then
+				return classStat.Value
 			end
 		end
-	end
-	
-	for _, classFolder in pairs(stylesFolder:GetChildren()) do
-		if classFolder:IsA("Folder") then
-			scanStyles(classFolder, classFolder.Name)
-		end
-	end
-	
-	-- Class Checker (Always Updates)
-	local function updateCurrentClass()
-		if not humanoid then return end
-		local animator = humanoid:FindFirstChildOfClass("Animator")
-		if not animator then
-			currentClass = nil
-			return
-		end
-		for _, track in pairs(animator:GetPlayingAnimationTracks()) do
-			local id = getIdNumber(track.Animation)
-			local className = id and animationClassMap[id]
-			if className then
-				currentClass = className
-				return
-			end
-		end
-		currentClass = nil
+		return nil
 	end
 	
 	-- Target Utilities
@@ -3263,9 +3140,9 @@ local function YRYHUKT_fake_script() -- TargetHit.LocalScript
 	
 	local function getClosest()
 		if currentTarget and currentTarget.Character then
-			local humanoid = currentTarget.Character:FindFirstChildOfClass("Humanoid")
+			local hum = currentTarget.Character:FindFirstChildOfClass("Humanoid")
 			local targetHRP = currentTarget.Character:FindFirstChild("HumanoidRootPart")
-			if humanoid and humanoid.Health > 0 and targetHRP then
+			if hum and hum.Health > 0 and targetHRP then
 				return currentTarget
 			end
 		end
@@ -3274,8 +3151,8 @@ local function YRYHUKT_fake_script() -- TargetHit.LocalScript
 		currentTarget = nil
 		for _, plr in ipairs(targets) do
 			if plr.Character then
-				local humanoid = plr.Character:FindFirstChildOfClass("Humanoid")
-				if humanoid and humanoid.Health > 0 then
+				local hum = plr.Character:FindFirstChildOfClass("Humanoid")
+				if hum and hum.Health > 0 then
 					currentTarget = plr
 					break
 				end
@@ -3311,8 +3188,9 @@ local function YRYHUKT_fake_script() -- TargetHit.LocalScript
 	end
 	
 	local function attack()
-		updateCurrentClass()
-		if not currentClass then return end -- skip if no animation detected
+		-- Grab class string straight from leaderstats
+		local currentClass = getClassValue()
+		if not currentClass or currentClass == "" then return end -- skip if class isn't valid yet
 	
 		local remote = getRemote()
 		if not remote then return end
@@ -3382,8 +3260,8 @@ local function YRYHUKT_fake_script() -- TargetHit.LocalScript
 			while attacking do
 				local target = getClosest()
 				if target and target.Character then
-					local humanoid = target.Character:FindFirstChildOfClass("Humanoid")
-					if humanoid and humanoid.Health > 0 then
+					local hum = target.Character:FindFirstChildOfClass("Humanoid")
+					if hum and hum.Health > 0 then
 						attack()
 					end
 				end
@@ -3421,8 +3299,8 @@ local function YRYHUKT_fake_script() -- TargetHit.LocalScript
 		end
 	end)
 end
-coroutine.wrap(YRYHUKT_fake_script)()
-local function KWVI_fake_script() -- TextLabel_18.LocalScript 
+coroutine.wrap(ZTSKA_fake_script)()
+local function KIDFKW_fake_script() -- TextLabel_18.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_18)
 
 	local Players = game:GetService("Players")
@@ -3515,8 +3393,8 @@ local function KWVI_fake_script() -- TextLabel_18.LocalScript
 		onCharacter(player.Character)
 	end
 end
-coroutine.wrap(KWVI_fake_script)()
-local function CZXXJ_fake_script() -- bSliderFrame_6.mainScript 
+coroutine.wrap(KIDFKW_fake_script)()
+local function UTRZTTZ_fake_script() -- bSliderFrame_6.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_6)
 
 	-- Services
@@ -3544,85 +3422,36 @@ local function CZXXJ_fake_script() -- bSliderFrame_6.mainScript
 	local minHealth = 1
 	local maxHealth = 100
 	local attackHealthThreshold = maxHealth
-	local attackInterval = 0.3
+	local attackInterval = 0.31
 	local lastAttackTime = 0
 	local PREDICTION_FACTOR = 1
 	
-	-- Character / Animation / Class
+	-- Character Tracking
 	local humanoid
 	local character
-	local stylesFolder
-	local animationClassMap = {}
-	local lastClass = nil
-	
-	-- Keep track of the heartbeat connection for class updates
-	local classUpdateConnection
-	
-	-- =========================
-	-- Animation / Class Functions
-	-- =========================
-	local function getIdNumber(animation)
-		if not animation or not animation.AnimationId then return nil end
-		local id = animation.AnimationId:match("%d+")
-		return id and tonumber(id)
-	end
-	
-	local function scanStyles(folder, className)
-		for _, child in pairs(folder:GetChildren()) do
-			if child:IsA("Animation") then
-				local id = getIdNumber(child)
-				if id then
-					animationClassMap[id] = className
-				end
-			elseif child:IsA("Folder") then
-				scanStyles(child, className)
-			end
-		end
-	end
-	
-	local function updateClassFromAnimation()
-		if not humanoid then return end
-		local animator = humanoid:FindFirstChildOfClass("Animator")
-		if not animator then return end
-	
-		for _, track in pairs(animator:GetPlayingAnimationTracks()) do
-			local id = getIdNumber(track.Animation)
-			local className = id and animationClassMap[id]
-			if className then
-				lastClass = className
-				break
-			end
-		end
-	end
 	
 	local function onCharacterAdded(char)
 		character = char
 		humanoid = character:WaitForChild("Humanoid")
-		stylesFolder = character:WaitForChild("Core"):WaitForChild("Animations"):WaitForChild("Styles")
-		animationClassMap = {}
-		lastClass = nil
-	
-		for _, classFolder in pairs(stylesFolder:GetChildren()) do
-			if classFolder:IsA("Folder") then
-				scanStyles(classFolder, classFolder.Name)
-			end
-		end
-	
-		-- Disconnect previous heartbeat if exists
-		if classUpdateConnection then
-			classUpdateConnection:Disconnect()
-		end
-	
-		-- Reconnect heartbeat to constantly update class
-		classUpdateConnection = RunService.Heartbeat:Connect(updateClassFromAnimation)
-	
-		-- Force initial class update right after spawn
-		task.defer(updateClassFromAnimation)
 	end
 	
 	-- Initial bind and respawn bind
-	onCharacterAdded(player.Character or player.CharacterAdded:Wait())
+	if player.Character then onCharacterAdded(player.Character) end
 	player.CharacterAdded:Connect(onCharacterAdded)
+	
+	-- =========================
+	-- Leaderstats Class Function
+	-- =========================
+	local function getClassValue()
+		local leaderstats = player:FindFirstChild("leaderstats")
+		if leaderstats then
+			local classStat = leaderstats:FindFirstChild("Class")
+			if classStat then
+				return classStat.Value
+			end
+		end
+		return ""
+	end
 	
 	-- =========================
 	-- Utility Functions
@@ -3656,8 +3485,8 @@ local function CZXXJ_fake_script() -- bSliderFrame_6.mainScript
 		for _, plr in pairs(Players:GetPlayers()) do
 			if plr ~= player and plr.Character then
 				local targetHRP = plr.Character:FindFirstChild("HumanoidRootPart")
-				local humanoid = plr.Character:FindFirstChildOfClass("Humanoid")
-				if targetHRP and humanoid and humanoid.Health > 0 and humanoid.Health <= attackHealthThreshold then
+				local humanoidElement = plr.Character:FindFirstChildOfClass("Humanoid")
+				if targetHRP and humanoidElement and humanoidElement.Health > 0 and humanoidElement.Health <= attackHealthThreshold then
 					local d = (hrp.Position - targetHRP.Position).Magnitude
 					if d < dist and d <= maxDistance then
 						dist = d
@@ -3691,7 +3520,8 @@ local function CZXXJ_fake_script() -- bSliderFrame_6.mainScript
 		local hrp = tChar:FindFirstChild("HumanoidRootPart")
 		if not hrp then return end
 	
-		local myClass = lastClass or ""
+		-- Directly pull the value from leaderstats before swinging
+		local myClass = getClassValue()
 		local offHand = (currentHand == "RightHand") and "LeftHand" or "RightHand"
 	
 		for _, partName in pairs(hitPartsList) do
@@ -3771,8 +3601,8 @@ local function CZXXJ_fake_script() -- bSliderFrame_6.mainScript
 				if now - lastAttackTime >= attackInterval then
 					local target = getClosest()
 					if target and target.Character then
-						local humanoid = target.Character:FindFirstChildOfClass("Humanoid")
-						if humanoid and humanoid.Health > 0 then
+						local humanoidElement = target.Character:FindFirstChildOfClass("Humanoid")
+						if humanoidElement and humanoidElement.Health > 0 then
 							performAttack()
 						end
 					end
@@ -3798,6 +3628,9 @@ local function CZXXJ_fake_script() -- bSliderFrame_6.mainScript
 		end
 	end
 	
+	-- =========================
+	-- Slider Setup
+	-- =========================
 	local function updateSlider(pos)
 		slideFrame:TweenSize(
 			UDim2.new(pos, 0, 1, 0),
@@ -3851,245 +3684,9 @@ local function CZXXJ_fake_script() -- bSliderFrame_6.mainScript
 		end)
 	end
 end
-coroutine.wrap(CZXXJ_fake_script)()
-local function UGRNQ_fake_script() -- TextLabel_25.LocalScript 
+coroutine.wrap(UTRZTTZ_fake_script)()
+local function NLQWHFB_fake_script() -- TextLabel_25.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_25)
-
-	local Players = game:GetService("Players")
-	local RunService = game:GetService("RunService")
-	
-	local player = Players.LocalPlayer
-	local character = player.Character or player.CharacterAdded:Wait()
-	local humanoid = character:WaitForChild("Humanoid")
-	
-	local parentRoot = script.Parent
-	local wipButton = parentRoot:FindFirstChild("WipButton")
-	
-	local MAX_DISTANCE = 50 -- target range
-	local attacking = false
-	local currentHand = "RightHand"
-	local wipEnabled = false
-	local hitPartsList = { "Head" }
-	local ATTACK_DELAY = 0.31 -- default attack delay
-	
-	-- =========================
-	-- ANIMATION / CLASS DETECTION
-	-- =========================
-	local stylesFolder = character:WaitForChild("Core"):WaitForChild("Animations"):WaitForChild("Styles")
-	local animationClassMap = {}
-	local lastClass = nil
-	
-	local function getIdNumber(animation)
-		if not animation or not animation.AnimationId then return nil end
-		local id = animation.AnimationId:match("%d+")
-		return id and tonumber(id)
-	end
-	
-	local function scanStyles(folder, className)
-		for _, child in pairs(folder:GetChildren()) do
-			if child:IsA("Animation") then
-				local id = getIdNumber(child)
-				if id then
-					animationClassMap[id] = className
-				end
-			elseif child:IsA("Folder") then
-				scanStyles(child, className)
-			end
-		end
-	end
-	
-	for _, classFolder in pairs(stylesFolder:GetChildren()) do
-		if classFolder:IsA("Folder") then
-			scanStyles(classFolder, classFolder.Name)
-		end
-	end
-	
-	local function updateClassFromAnimation()
-		local animator = humanoid:FindFirstChildOfClass("Animator")
-		if not animator then return end
-	
-		for _, track in pairs(animator:GetPlayingAnimationTracks()) do
-			local id = getIdNumber(track.Animation)
-			local className = id and animationClassMap[id]
-			if className then
-				lastClass = className
-				break
-			end
-		end
-	end
-	
-	RunService.Heartbeat:Connect(updateClassFromAnimation)
-	
-	-- =========================
-	-- UTILITIES
-	-- =========================
-	local function isFightEquipped()
-		local char = player.Character
-		if not char then return false end
-		local tool = char:FindFirstChildOfClass("Tool")
-		return tool and tool.Name == "Fight"
-	end
-	
-	local function getRemote()
-		local char = player.Character or player.CharacterAdded:Wait()
-		local core = char:WaitForChild("Core")
-		local comm = core:WaitForChild("Communicate")
-	
-		for _, v in pairs(comm:GetChildren()) do
-			if v:IsA("RemoteEvent") then
-				return v
-			end
-		end
-	end
-	
-	local function predictPosition(hrp)
-		if not hrp then return end
-		return hrp.Position + (hrp.Velocity * ATTACK_DELAY * 0.5)
-	end
-	
-	local function stabilizeCharacter(hrp)
-		if not hrp then return end
-		hrp.Velocity = Vector3.new(0,0,0)
-		hrp.AssemblyLinearVelocity = Vector3.new(0,0,0)
-		hrp.AssemblyAngularVelocity = Vector3.new(0,0,0)
-	end
-	
-	-- =========================
-	-- ATTACK FUNCTION
-	-- =========================
-	local function attack()
-		local remote = getRemote()
-		if not remote then return end
-	
-		local target = nil
-		local myHRP = player.Character and player.Character:FindFirstChild("HumanoidRootPart")
-		if not myHRP then return end
-	
-		-- Only target friends at 0 health
-		for _, plr in pairs(Players:GetPlayers()) do
-			if plr ~= player and plr.Character then
-				local hrp = plr.Character:FindFirstChild("HumanoidRootPart")
-				local humanoid = plr.Character:FindFirstChildOfClass("Humanoid")
-				if hrp and humanoid and humanoid.Health <= 0 and player:IsFriendsWith(plr.UserId) then
-					local distance = (myHRP.Position - hrp.Position).Magnitude
-					if distance <= MAX_DISTANCE then
-						target = plr
-						break
-					end
-				end
-			end
-		end
-	
-		if not target or not target.Character then return end
-	
-		local tChar = target.Character
-		local hrp = tChar:FindFirstChild("HumanoidRootPart")
-		if not hrp then return end
-	
-		local myClass = lastClass
-		local offHand = (currentHand == "RightHand") and "LeftHand" or "RightHand"
-	
-		for _, partName in pairs(hitPartsList) do
-			local hitPart = tChar:FindFirstChild(partName) or hrp
-			local args = {
-				"Attack",
-				{
-					Point = predictPosition(hrp),
-					Combo = 5,
-					Class = myClass,
-					IsKnockdown = false,
-					Character = tChar,
-					Hit = hitPart,
-					Limb = currentHand,
-					Classs = "",
-					Result = nil
-				},
-				false
-			}
-	
-			remote:FireServer(unpack(args))
-			remote:FireServer("Swing", {Limb = currentHand})
-			remote:FireServer("Swing", {Limb = offHand})
-			currentHand = offHand
-		end
-	end
-	
-	-- =========================
-	-- MOVEMENT LOOP
-	-- =========================
-	local moveConnection
-	local function startMovementLoop()
-		if moveConnection then return end
-		moveConnection = RunService.Heartbeat:Connect(function()
-			if not attacking then return end
-			local char = player.Character
-			local myHRP = char and char:FindFirstChild("HumanoidRootPart")
-			if not myHRP or not isFightEquipped() then return end
-	
-			for _, plr in pairs(Players:GetPlayers()) do
-				if plr ~= player and plr.Character then
-					local hrp = plr.Character:FindFirstChild("HumanoidRootPart")
-					local humanoid = plr.Character:FindFirstChildOfClass("Humanoid")
-					if hrp and humanoid and humanoid.Health <= 0 and player:IsFriendsWith(plr.UserId) then
-						local distance = (myHRP.Position - hrp.Position).Magnitude
-						if distance <= MAX_DISTANCE then
-							stabilizeCharacter(myHRP)
-							myHRP.CFrame = CFrame.new(predictPosition(hrp) + Vector3.new(0,0,1))
-							break
-						end
-					end
-				end
-			end
-		end)
-	end
-	
-	local function stopMovementLoop()
-		if moveConnection then
-			moveConnection:Disconnect()
-			moveConnection = nil
-		end
-	end
-	
-	-- =========================
-	-- LOOP
-	-- =========================
-	local function startLoop()
-		if attacking then return end
-		attacking = true
-		startMovementLoop()
-	
-		task.spawn(function()
-			while attacking do
-				attack()
-				task.wait(ATTACK_DELAY)
-			end
-		end)
-	end
-	
-	local function stopLoop()
-		attacking = false
-		stopMovementLoop()
-	end
-	
-	-- =========================
-	-- WIP BUTTON
-	-- =========================
-	if wipButton then
-		wipButton.MouseButton1Click:Connect(function()
-			wipEnabled = not wipEnabled
-			if wipEnabled then
-				wipButton.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
-				startLoop()
-			else
-				wipButton.BackgroundColor3 = Color3.fromRGB(255, 11, 0)
-				stopLoop()
-			end
-		end)
-	end
-end
-coroutine.wrap(UGRNQ_fake_script)()
-local function EKGSV_fake_script() -- TextLabel_26.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_26)
 
 	
 	local Players = game:GetService("Players")
@@ -4172,9 +3769,9 @@ local function EKGSV_fake_script() -- TextLabel_26.LocalScript
 	button.MouseButton1Click:Connect(toggleButton)
 	button.TouchTap:Connect(toggleButton)
 end
-coroutine.wrap(EKGSV_fake_script)()
-local function VKKKRSD_fake_script() -- TextLabel_27.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_27)
+coroutine.wrap(NLQWHFB_fake_script)()
+local function RJURP_fake_script() -- TextLabel_26.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_26)
 
 	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
@@ -4270,9 +3867,9 @@ local function VKKKRSD_fake_script() -- TextLabel_27.LocalScript
 		end)
 	end
 end
-coroutine.wrap(VKKKRSD_fake_script)()
-local function YHXK_fake_script() -- TextLabel_28.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_28)
+coroutine.wrap(RJURP_fake_script)()
+local function GUFDVAG_fake_script() -- TextLabel_27.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_27)
 
 	local parentRoot = script.Parent
 	local wipButton = parentRoot:FindFirstChild("WipButton")
@@ -4308,275 +3905,4 @@ local function YHXK_fake_script() -- TextLabel_28.LocalScript
 		end)
 	end
 end
-coroutine.wrap(YHXK_fake_script)()
-local function QUJIMSN_fake_script() -- TextLabel_29.mainScript 
-	local script = Instance.new('LocalScript', TextLabel_29)
-
-	-- Services
-	local Players = game:GetService("Players")
-	local RunService = game:GetService("RunService")
-	local player = Players.LocalPlayer
-	
-	-- Button
-	local button = script.Parent:WaitForChild("WipButton")
-	local onColor = Color3.fromRGB(51, 255, 47)
-	local offColor = Color3.fromRGB(255, 0, 0)
-	button.BackgroundColor3 = offColor
-	
-	-- =========================
-	-- Auto-Heavy Settings
-	-- =========================
-	local attackInterval = 0.35
-	local PREDICTION_FACTOR = 1
-	local hitPartsList = { "Head" }
-	local attackHealthThreshold = 100
-	local currentHand = "RightHand"
-	local maxDistance = 10000
-	
-	-- Character / Animation / Class
-	local humanoid
-	local character
-	local stylesFolder
-	local animationClassMap = {}
-	local lastClass = nil
-	local classUpdateConnection
-	
-	-- =========================
-	-- Animation / Class Functions
-	-- =========================
-	local function getIdNumber(animation)
-		if not animation or not animation.AnimationId then return nil end
-		local id = animation.AnimationId:match("%d+")
-		return id and tonumber(id)
-	end
-	
-	local function scanStyles(folder, className)
-		for _, child in pairs(folder:GetChildren()) do
-			if child:IsA("Animation") then
-				local id = getIdNumber(child)
-				if id then
-					animationClassMap[id] = className
-				end
-			elseif child:IsA("Folder") then
-				scanStyles(child, className)
-			end
-		end
-	end
-	
-	local function updateClassFromAnimation()
-		if not humanoid then return end
-		local animator = humanoid:FindFirstChildOfClass("Animator")
-		if not animator then return end
-	
-		for _, track in pairs(animator:GetPlayingAnimationTracks()) do
-			local id = getIdNumber(track.Animation)
-			local className = id and animationClassMap[id]
-			if className then
-				lastClass = className
-				break
-			end
-		end
-	end
-	
-	local function onCharacterAdded(char)
-		character = char
-		humanoid = character:WaitForChild("Humanoid")
-		stylesFolder = character:WaitForChild("Core"):WaitForChild("Animations"):WaitForChild("Styles")
-		animationClassMap = {}
-		lastClass = nil
-	
-		for _, classFolder in pairs(stylesFolder:GetChildren()) do
-			if classFolder:IsA("Folder") then
-				scanStyles(classFolder, classFolder.Name)
-			end
-		end
-	
-		if classUpdateConnection then
-			classUpdateConnection:Disconnect()
-		end
-	
-		classUpdateConnection = RunService.Heartbeat:Connect(updateClassFromAnimation)
-	
-		task.defer(updateClassFromAnimation)
-	end
-	
-	-- Initial bind and respawn bind
-	onCharacterAdded(player.Character or player.CharacterAdded:Wait())
-	player.CharacterAdded:Connect(onCharacterAdded)
-	
-	-- =========================
-	-- Utility Functions
-	-- =========================
-	local function getRemote()
-		if not character then return end
-		local core = character:WaitForChild("Core")
-		local comm = core:WaitForChild("Communicate")
-		for _, v in pairs(comm:GetChildren()) do
-			if v:IsA("RemoteEvent") then
-				return v
-			end
-		end
-	end
-	
-	local function predictPosition(hrp)
-		return hrp.Position + (hrp.Velocity * attackInterval * PREDICTION_FACTOR)
-	end
-	
-	local function hasHighlight(plr)
-		if not plr.Character then return false end
-		if plr.Character:FindFirstChildOfClass("Highlight") then return true end
-		local liveFolder = workspace:FindFirstChild("Live")
-		if liveFolder then
-			for _, item in pairs(liveFolder:GetChildren()) do
-				if item:IsA("Model") and item == plr.Character then
-					if item:FindFirstChildOfClass("Highlight") then
-						return true
-					end
-				end
-			end
-		end
-		return false
-	end
-	
-	local function getRandomTarget()
-		local candidates = {}
-		for _, plr in pairs(Players:GetPlayers()) do
-			if plr ~= player and plr.Character then
-				local hrp = plr.Character:FindFirstChild("HumanoidRootPart")
-				local humanoid = plr.Character:FindFirstChildOfClass("Humanoid")
-				if hrp and humanoid and humanoid.Health > 0 and humanoid.Health <= attackHealthThreshold then
-					if not hasHighlight(plr) then
-						table.insert(candidates, plr)
-					end
-				end
-			end
-		end
-		if #candidates > 0 then
-			return candidates[math.random(1, #candidates)]
-		end
-		return nil
-	end
-	
-	local function performAttack(target)
-		if not target or not target.Character or not character then return end
-		local tChar = target.Character
-		local hrp = tChar:FindFirstChild("HumanoidRootPart")
-		if not hrp then return end
-	
-		local remote = getRemote()
-		if not remote then return end
-	
-		local myClass = lastClass or ""
-		local offHand = (currentHand == "RightHand") and "LeftHand" or "RightHand"
-	
-		for _, partName in pairs(hitPartsList) do
-			local hitPart = tChar:FindFirstChild(partName) or hrp
-			local args = {
-				"Heavy",
-				{
-					Point = predictPosition(hrp),
-					Combo = 5,
-					Class = myClass,
-					IsKnockdown = false,
-					Character = tChar,
-					Hit = hitPart,
-					Limb = currentHand,
-					Result = nil
-				},
-				false
-			}
-	
-			remote:FireServer(unpack(args))
-			remote:FireServer("Swing", { Limb = currentHand })
-			remote:FireServer("Swing", { Limb = offHand })
-			currentHand = offHand
-		end
-	end
-	
-	-- =========================
-	-- Teleport / RunService
-	-- =========================
-	local teleportConnection
-	
-	local function startTeleportLoop(target)
-		if teleportConnection then
-			teleportConnection:Disconnect()
-		end
-	
-		teleportConnection = RunService.Heartbeat:Connect(function()
-			if not target or not target.Character or not character then return end
-			local myHRP = character:FindFirstChild("HumanoidRootPart")
-			local tHRP = target.Character:FindFirstChild("HumanoidRootPart")
-			if not myHRP or not tHRP then return end
-	
-			-- Disable collisions
-			for _, part in ipairs(character:GetDescendants()) do
-				if part:IsA("BasePart") then
-					part.CanCollide = false
-				end
-			end
-	
-			-- Teleport and rotate
-			local underPos = tHRP.Position + Vector3.new(0, -6.5, 0)
-			myHRP.CFrame = CFrame.new(underPos, underPos + Vector3.new(0, 1, 0)) * CFrame.Angles(math.rad(180), 0, 0)
-		end)
-	end
-	
-	local function stopTeleportLoop()
-		if teleportConnection then
-			teleportConnection:Disconnect()
-			teleportConnection = nil
-		end
-	end
-	
-	-- =========================
-	-- Toggle Loop
-	-- =========================
-	local Toggle = false
-	local loopRunning = false
-	
-	button.MouseButton1Click:Connect(function()
-		Toggle = not Toggle
-		button.BackgroundColor3 = Toggle and onColor or offColor
-	
-		if Toggle and not loopRunning then
-			loopRunning = true
-			task.spawn(function()
-				local currentTarget = nil
-				local lastAttackTime = 0
-	
-				while Toggle do
-					if not currentTarget or not currentTarget.Character then
-						currentTarget = getRandomTarget()
-					else
-						local hum = currentTarget.Character:FindFirstChildOfClass("Humanoid")
-						if not hum or hum.Health <= 0 then
-							currentTarget = getRandomTarget()
-						end
-					end
-	
-					if currentTarget and currentTarget.Character then
-						local hum = currentTarget.Character:FindFirstChildOfClass("Humanoid")
-						if hum and hum.Health > 0 then
-							startTeleportLoop(currentTarget)  -- Teleport every frame
-	
-							local now = tick()
-							if now - lastAttackTime >= attackInterval then
-								performAttack(currentTarget)
-								lastAttackTime = now
-							end
-						end
-					end
-	
-					task.wait()
-				end
-	
-				stopTeleportLoop()  -- Stop teleport immediately
-				loopRunning = false
-			end)
-		else
-			stopTeleportLoop()
-		end
-	end) 
-end
-coroutine.wrap(QUJIMSN_fake_script)()
+coroutine.wrap(GUFDVAG_fake_script)()
