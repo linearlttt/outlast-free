@@ -1,0 +1,4582 @@
+-- imie his Gui to Lua
+-- Version: 1
+
+-- Instances:
+
+local OutlastHubNormal = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local BackGround = Instance.new("Frame")
+local UIStroke = Instance.new("UIStroke")
+local Window = Instance.new("TextLabel")
+local Toggle = Instance.new("TextButton")
+local UIStroke_2 = Instance.new("UIStroke")
+local ImageLabel = Instance.new("ImageLabel")
+local Container = Instance.new("Frame")
+local Tab1 = Instance.new("Frame")
+local TabFrame1 = Instance.new("ScrollingFrame")
+local TextLabel = Instance.new("TextLabel")
+local WipButton = Instance.new("TextButton")
+local UIStroke_3 = Instance.new("UIStroke")
+local UIStroke_4 = Instance.new("UIStroke")
+local TextLabel_2 = Instance.new("TextLabel")
+local WipButton_2 = Instance.new("TextButton")
+local UIStroke_5 = Instance.new("UIStroke")
+local UIStroke_6 = Instance.new("UIStroke")
+local TextLabel_3 = Instance.new("TextLabel")
+local WipButton_3 = Instance.new("TextButton")
+local UIStroke_7 = Instance.new("UIStroke")
+local UIStroke_8 = Instance.new("UIStroke")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local WipButton_4 = Instance.new("TextButton")
+local UIStroke_9 = Instance.new("UIStroke")
+local mainFrame = Instance.new("Frame")
+local bSliderFrame = Instance.new("Frame")
+local slideFrame = Instance.new("Frame")
+local amountValue = Instance.new("TextLabel")
+local UIStroke_10 = Instance.new("UIStroke")
+local UICorner = Instance.new("UICorner")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local UIStroke_11 = Instance.new("UIStroke")
+local TextLabel_6 = Instance.new("TextLabel")
+local WipButton_5 = Instance.new("TextButton")
+local UIStroke_12 = Instance.new("UIStroke")
+local UIStroke_13 = Instance.new("UIStroke")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local WipButton_6 = Instance.new("TextButton")
+local UIStroke_14 = Instance.new("UIStroke")
+local UICorner_2 = Instance.new("UICorner")
+local mainFrame_2 = Instance.new("Frame")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local bSliderFrame_2 = Instance.new("Frame")
+local slideFrame_2 = Instance.new("Frame")
+local amountValue_2 = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local UIStroke_15 = Instance.new("UIStroke")
+local UIStroke_16 = Instance.new("UIStroke")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local WipButton_7 = Instance.new("TextButton")
+local UIStroke_17 = Instance.new("UIStroke")
+local UICorner_4 = Instance.new("UICorner")
+local mainFrame_3 = Instance.new("Frame")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local bSliderFrame_3 = Instance.new("Frame")
+local slideFrame_3 = Instance.new("Frame")
+local amountValue_3 = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local UIStroke_18 = Instance.new("UIStroke")
+local UIStroke_19 = Instance.new("UIStroke")
+local TextLabel_11 = Instance.new("TextLabel")
+local WipButton_8 = Instance.new("TextButton")
+local UIStroke_20 = Instance.new("UIStroke")
+local UIStroke_21 = Instance.new("UIStroke")
+local Tab1Button = Instance.new("TextButton")
+local UIStroke_22 = Instance.new("UIStroke")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local Tab2Button = Instance.new("TextButton")
+local UIStroke_23 = Instance.new("UIStroke")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local Tab4Button = Instance.new("TextButton")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local UIStroke_24 = Instance.new("UIStroke")
+local TabFrame2 = Instance.new("ScrollingFrame")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local WipButton_9 = Instance.new("TextButton")
+local UIStroke_25 = Instance.new("UIStroke")
+local mainFrame_4 = Instance.new("Frame")
+local bSliderFrame_4 = Instance.new("Frame")
+local slideFrame_4 = Instance.new("Frame")
+local amountValue_4 = Instance.new("TextLabel")
+local UIStroke_26 = Instance.new("UIStroke")
+local UICorner_6 = Instance.new("UICorner")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local UIStroke_27 = Instance.new("UIStroke")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_15 = Instance.new("TextLabel")
+local WipButton_10 = Instance.new("TextButton")
+local UIStroke_28 = Instance.new("UIStroke")
+local mainFrame_5 = Instance.new("Frame")
+local bSliderFrame_5 = Instance.new("Frame")
+local slideFrame_5 = Instance.new("Frame")
+local amountValue_5 = Instance.new("TextLabel")
+local UIStroke_29 = Instance.new("UIStroke")
+local UICorner_7 = Instance.new("UICorner")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local UIStroke_30 = Instance.new("UIStroke")
+local AutoBuy = Instance.new("TextLabel")
+local WipButton_11 = Instance.new("TextButton")
+local UIStroke_31 = Instance.new("UIStroke")
+local UIStroke_32 = Instance.new("UIStroke")
+local DropDownFrame = Instance.new("Frame")
+local Bat = Instance.new("TextButton")
+local Shank = Instance.new("TextButton")
+local Brass = Instance.new("TextButton")
+local Gloves = Instance.new("TextButton")
+local TabFrame4 = Instance.new("ScrollingFrame")
+local Rejoin = Instance.new("TextButton")
+local UIStroke_33 = Instance.new("UIStroke")
+local TextLabel_16 = Instance.new("TextLabel")
+local WipButton_12 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local UIStroke_34 = Instance.new("UIStroke")
+local UIStroke_35 = Instance.new("UIStroke")
+local TextLabel_17 = Instance.new("TextLabel")
+local WipButton_13 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local UIStroke_36 = Instance.new("UIStroke")
+local UIStroke_37 = Instance.new("UIStroke")
+local Tab3Button = Instance.new("TextButton")
+local UIStroke_38 = Instance.new("UIStroke")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local UIStroke_39 = Instance.new("UIStroke")
+local Padding = Instance.new("UIPadding")
+local TabFrame3 = Instance.new("ScrollingFrame")
+local TargetHit = Instance.new("TextLabel")
+local UIStroke_40 = Instance.new("UIStroke")
+local WipButton_14 = Instance.new("TextButton")
+local UIStroke_41 = Instance.new("UIStroke")
+local TargetBox = Instance.new("TextBox")
+local UIStroke_42 = Instance.new("UIStroke")
+local TextLabel_18 = Instance.new("TextLabel")
+local Pad2 = Instance.new("TextButton")
+local UIStroke_43 = Instance.new("UIStroke")
+local UIStroke_44 = Instance.new("UIStroke")
+local Pad1 = Instance.new("TextButton")
+local UIStroke_45 = Instance.new("UIStroke")
+local TextLabel_19 = Instance.new("TextLabel")
+local TextLabel_20 = Instance.new("TextLabel")
+local AutoReset = Instance.new("TextButton")
+local UIStroke_46 = Instance.new("UIStroke")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextLabel_22 = Instance.new("TextLabel")
+local TextLabel_23 = Instance.new("TextLabel")
+local TextLabel_24 = Instance.new("TextLabel")
+local WipButton_15 = Instance.new("TextButton")
+local UIStroke_47 = Instance.new("UIStroke")
+local mainFrame_6 = Instance.new("Frame")
+local bSliderFrame_6 = Instance.new("Frame")
+local slideFrame_6 = Instance.new("Frame")
+local amountValue_6 = Instance.new("TextLabel")
+local UIStroke_48 = Instance.new("UIStroke")
+local UICorner_10 = Instance.new("UICorner")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local UIStroke_49 = Instance.new("UIStroke")
+local TextLabel_25 = Instance.new("TextLabel")
+local UIStroke_50 = Instance.new("UIStroke")
+local WipButton_16 = Instance.new("TextButton")
+local UIStroke_51 = Instance.new("UIStroke")
+local TextLabel_26 = Instance.new("TextLabel")
+local UIStroke_52 = Instance.new("UIStroke")
+local WipButton_17 = Instance.new("TextButton")
+local UIStroke_53 = Instance.new("UIStroke")
+local AnimSpeed = Instance.new("TextBox")
+local TextLabel_27 = Instance.new("TextLabel")
+local UIStroke_54 = Instance.new("UIStroke")
+local WipButton_18 = Instance.new("TextButton")
+local UIStroke_55 = Instance.new("UIStroke")
+local TextLabel_28 = Instance.new("TextLabel")
+local UIStroke_56 = Instance.new("UIStroke")
+local WipButton_19 = Instance.new("TextButton")
+local UIStroke_57 = Instance.new("UIStroke")
+local TextLabel_29 = Instance.new("TextLabel")
+local TextLabel_30 = Instance.new("TextLabel")
+local UIStroke_58 = Instance.new("UIStroke")
+local WipButton_20 = Instance.new("TextButton")
+local UIStroke_59 = Instance.new("UIStroke")
+
+--Properties:
+
+OutlastHubNormal.Name = "Outlast Hub Normal"
+OutlastHubNormal.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+OutlastHubNormal.ResetOnSpawn = false
+
+Frame.Parent = OutlastHubNormal
+Frame.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Frame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.238116756, 0, 0.32866478, 0)
+Frame.Size = UDim2.new(0, 431, 0, 21)
+
+BackGround.Name = "BackGround"
+BackGround.Parent = Frame
+BackGround.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+BackGround.BorderColor3 = Color3.fromRGB(27, 42, 53)
+BackGround.BorderSizePixel = 0
+BackGround.Position = UDim2.new(-0.000381080288, 0, 1, 0)
+BackGround.Size = UDim2.new(0, 431, 0, 225)
+BackGround.ZIndex = -1
+
+UIStroke.Color = Color3.fromRGB(80, 83, 81)
+UIStroke.Thickness = 1.7999999523162842
+UIStroke.Parent = BackGround
+
+Window.Name = "Window"
+Window.Parent = Frame
+Window.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Window.BackgroundTransparency = 1.000
+Window.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Window.Position = UDim2.new(0.0696055666, 0, 0.142857149, 0)
+Window.Size = UDim2.new(0, 212, 0, 15)
+Window.Font = Enum.Font.SourceSans
+Window.Text = " Outlast Hub  - Fias / Normal"
+Window.TextColor3 = Color3.fromRGB(255, 255, 255)
+Window.TextSize = 15.000
+Window.TextStrokeTransparency = 0.000
+Window.TextXAlignment = Enum.TextXAlignment.Left
+
+Toggle.Name = "Toggle"
+Toggle.Parent = Frame
+Toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Toggle.BackgroundTransparency = 1.000
+Toggle.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Toggle.Position = UDim2.new(0.99767983, -25, 0, 0)
+Toggle.Size = UDim2.new(0, 25, 1, 0)
+Toggle.Font = Enum.Font.SourceSans
+Toggle.Text = "-"
+Toggle.TextColor3 = Color3.fromRGB(244, 235, 255)
+Toggle.TextSize = 27.000
+Toggle.TextStrokeTransparency = 0.000
+
+UIStroke_2.Color = Color3.fromRGB(80, 83, 81)
+UIStroke_2.Thickness = 1.7999999523162842
+UIStroke_2.Parent = Frame
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ImageLabel.Position = UDim2.new(0.00889966171, 0, -0.142857149, 0)
+ImageLabel.Size = UDim2.new(0, 25, 0, 26)
+ImageLabel.Image = "rbxassetid://10694838454"
+ImageLabel.ImageColor3 = Color3.fromRGB(255, 0, 0)
+
+Container.Name = "Container"
+Container.Parent = Frame
+Container.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Container.BorderSizePixel = 0
+Container.Position = UDim2.new(-0.000381080288, 0, 0.857142866, 0)
+Container.Size = UDim2.new(0, 431, 0, 225)
+Container.ZIndex = -1
+
+Tab1.Name = "Tab1"
+Tab1.Parent = Container
+Tab1.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Tab1.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Tab1.BorderSizePixel = 0
+Tab1.Position = UDim2.new(-0.0233628377, 0, -0.0136363637, 0)
+Tab1.Size = UDim2.new(0, 133, 0, 223)
+
+TabFrame1.Name = "TabFrame1"
+TabFrame1.Parent = Container
+TabFrame1.Active = true
+TabFrame1.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+TabFrame1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TabFrame1.BackgroundTransparency = 1.000
+TabFrame1.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TabFrame1.Position = UDim2.new(0.292551666, 0, -0.0138248848, 0)
+TabFrame1.Size = UDim2.new(0, 297, 0, 225)
+TabFrame1.ScrollBarThickness = 0
+
+TextLabel.Parent = TabFrame1
+TextLabel.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.Position = UDim2.new(0.0239999685, 0, 0.119647257, 0)
+TextLabel.Size = UDim2.new(0, 282, 0, 27)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "AntiFling"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+TextLabel.TextStrokeTransparency = 0.000
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton.Name = "WipButton"
+WipButton.Parent = TextLabel
+WipButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WipButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+WipButton.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
+WipButton.Size = UDim2.new(0, 15, 0, 15)
+WipButton.Font = Enum.Font.SourceSans
+WipButton.Text = ""
+WipButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+WipButton.TextSize = 14.000
+
+UIStroke_3.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_3.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_3.Thickness = 1.399999976158142
+UIStroke_3.Parent = WipButton
+
+UIStroke_4.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_4.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_4.Thickness = 1.7999999523162842
+UIStroke_4.Parent = TextLabel
+
+TextLabel_2.Parent = TabFrame1
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_2.Position = UDim2.new(0.0239999685, 0, 0.205601007, 0)
+TextLabel_2.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "AutoEquipFist"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextStrokeTransparency = 0.000
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton_2.Name = "WipButton"
+WipButton_2.Parent = TextLabel_2
+WipButton_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WipButton_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+WipButton_2.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
+WipButton_2.Size = UDim2.new(0, 15, 0, 15)
+WipButton_2.Font = Enum.Font.SourceSans
+WipButton_2.Text = ""
+WipButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+WipButton_2.TextSize = 14.000
+
+UIStroke_5.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_5.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_5.Thickness = 1.399999976158142
+UIStroke_5.Parent = WipButton_2
+
+UIStroke_6.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_6.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_6.Thickness = 1.7999999523162842
+UIStroke_6.Parent = TextLabel_2
+
+TextLabel_3.Parent = TabFrame1
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.Position = UDim2.new(0.0239999685, 0, 0.285279155, 0)
+TextLabel_3.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Noclip"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextStrokeTransparency = 0.000
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton_3.Name = "WipButton"
+WipButton_3.Parent = TextLabel_3
+WipButton_3.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WipButton_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+WipButton_3.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
+WipButton_3.Size = UDim2.new(0, 15, 0, 15)
+WipButton_3.Font = Enum.Font.SourceSans
+WipButton_3.Text = ""
+WipButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+WipButton_3.TextSize = 14.000
+
+UIStroke_7.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_7.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_7.Thickness = 1.399999976158142
+UIStroke_7.Parent = WipButton_3
+
+UIStroke_8.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_8.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_8.Thickness = 1.7999999523162842
+UIStroke_8.Parent = TextLabel_3
+
+TextLabel_4.Parent = TabFrame1
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_4.Position = UDim2.new(0.0227974523, 0, 0.505535781, 0)
+TextLabel_4.Size = UDim2.new(0, 282, 0, 48)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = ""
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextStrokeTransparency = 0.000
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_5.Parent = TextLabel_4
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_5.Position = UDim2.new(0.0248226952, 0, 0, 0)
+TextLabel_5.Size = UDim2.new(0, 72, 0, 27)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "AutoWeave"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextStrokeTransparency = 0.000
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton_4.Name = "WipButton"
+WipButton_4.Parent = TextLabel_4
+WipButton_4.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WipButton_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+WipButton_4.Position = UDim2.new(0.904255271, 0, 0.493055552, 0)
+WipButton_4.Size = UDim2.new(0, 15, 0, 15)
+WipButton_4.Font = Enum.Font.SourceSans
+WipButton_4.Text = ""
+WipButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+WipButton_4.TextSize = 14.000
+
+UIStroke_9.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_9.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_9.Thickness = 1.399999976158142
+UIStroke_9.Parent = WipButton_4
+
+mainFrame.Name = "mainFrame"
+mainFrame.Parent = TextLabel_4
+mainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+mainFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+mainFrame.BackgroundTransparency = 1.000
+mainFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+mainFrame.BorderSizePixel = 0
+mainFrame.Position = UDim2.new(0.193262428, 0, 0.5, 0)
+mainFrame.Size = UDim2.new(0.530005276, 0, 0.999999464, 0)
+
+bSliderFrame.Name = "bSliderFrame"
+bSliderFrame.Parent = mainFrame
+bSliderFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+bSliderFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+bSliderFrame.BorderColor3 = Color3.fromRGB(0, 170, 255)
+bSliderFrame.BorderSizePixel = 0
+bSliderFrame.Position = UDim2.new(1.21279001, 0, 0.663194418, 0)
+bSliderFrame.Size = UDim2.new(2.42924857, 0, 0.284721822, 0)
+
+slideFrame.Name = "slideFrame"
+slideFrame.Parent = bSliderFrame
+slideFrame.BackgroundColor3 = Color3.fromRGB(124, 128, 123)
+slideFrame.BackgroundTransparency = 0.250
+slideFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+slideFrame.BorderSizePixel = 0
+slideFrame.Size = UDim2.new(0, 0, 1, 0)
+
+amountValue.Name = "amountValue"
+amountValue.Parent = bSliderFrame
+amountValue.AnchorPoint = Vector2.new(0.5, 0.5)
+amountValue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+amountValue.BackgroundTransparency = 1.000
+amountValue.BorderColor3 = Color3.fromRGB(27, 42, 53)
+amountValue.BorderSizePixel = 0
+amountValue.Position = UDim2.new(0.521337628, 0, 0.451219648, 0)
+amountValue.Size = UDim2.new(0.957325161, 0, 1.09756374, 0)
+amountValue.ZIndex = 2
+amountValue.Font = Enum.Font.SourceSans
+amountValue.Text = "0"
+amountValue.TextColor3 = Color3.fromRGB(255, 255, 255)
+amountValue.TextSize = 15.000
+amountValue.TextStrokeTransparency = 0.000
+amountValue.TextWrapped = true
+
+UIStroke_10.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_10.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_10.Thickness = 1.7999999523162842
+UIStroke_10.Parent = bSliderFrame
+
+UICorner.CornerRadius = UDim.new(0, 2)
+UICorner.Parent = bSliderFrame
+
+UIAspectRatioConstraint.Parent = mainFrame
+UIAspectRatioConstraint.AspectRatio = 2.010
+
+UIStroke_11.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_11.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_11.Thickness = 1.7999999523162842
+UIStroke_11.Parent = TextLabel_4
+
+TextLabel_6.Parent = TabFrame1
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_6.Position = UDim2.new(0.0239999685, 0, 0.760002851, 0)
+TextLabel_6.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "NoNotifications"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextStrokeTransparency = 0.000
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton_5.Name = "WipButton"
+WipButton_5.Parent = TextLabel_6
+WipButton_5.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WipButton_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+WipButton_5.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
+WipButton_5.Size = UDim2.new(0, 15, 0, 15)
+WipButton_5.Font = Enum.Font.SourceSans
+WipButton_5.Text = ""
+WipButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+WipButton_5.TextSize = 14.000
+
+UIStroke_12.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_12.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_12.Thickness = 1.399999976158142
+UIStroke_12.Parent = WipButton_5
+
+UIStroke_13.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_13.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_13.Thickness = 1.7999999523162842
+UIStroke_13.Parent = TextLabel_6
+
+TextLabel_7.Parent = TabFrame1
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_7.Position = UDim2.new(0.0229999796, 0, 0.62681967, 0)
+TextLabel_7.Size = UDim2.new(0, 282, 0, 48)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = ""
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextStrokeTransparency = 0.000
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_8.Parent = TextLabel_7
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_8.Position = UDim2.new(0.0248226952, 0, 0, 0)
+TextLabel_8.Size = UDim2.new(0, 72, 0, 27)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "Weave Glide"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextStrokeTransparency = 0.000
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton_6.Name = "WipButton"
+WipButton_6.Parent = TextLabel_7
+WipButton_6.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WipButton_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+WipButton_6.Position = UDim2.new(0.904255271, 0, 0.493055522, 0)
+WipButton_6.Size = UDim2.new(0, 15, 0, 15)
+WipButton_6.Font = Enum.Font.SourceSans
+WipButton_6.Text = ""
+WipButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+WipButton_6.TextSize = 14.000
+
+UIStroke_14.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_14.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_14.Thickness = 1.399999976158142
+UIStroke_14.Parent = WipButton_6
+
+UICorner_2.CornerRadius = UDim.new(0, 2)
+UICorner_2.Parent = WipButton_6
+
+mainFrame_2.Name = "mainFrame"
+mainFrame_2.Parent = TextLabel_7
+mainFrame_2.AnchorPoint = Vector2.new(0.5, 0.5)
+mainFrame_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+mainFrame_2.BackgroundTransparency = 1.000
+mainFrame_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+mainFrame_2.BorderSizePixel = 0
+mainFrame_2.Position = UDim2.new(0.193262428, 0, 0.5, 0)
+mainFrame_2.Size = UDim2.new(0.530005276, 0, 0.999999464, 0)
+
+UIAspectRatioConstraint_2.Parent = mainFrame_2
+UIAspectRatioConstraint_2.AspectRatio = 2.010
+
+bSliderFrame_2.Name = "bSliderFrame"
+bSliderFrame_2.Parent = mainFrame_2
+bSliderFrame_2.AnchorPoint = Vector2.new(0.5, 0.5)
+bSliderFrame_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+bSliderFrame_2.BorderColor3 = Color3.fromRGB(0, 170, 255)
+bSliderFrame_2.BorderSizePixel = 0
+bSliderFrame_2.Position = UDim2.new(1.21279001, 0, 0.663194418, 0)
+bSliderFrame_2.Size = UDim2.new(2.42924857, 0, 0.284721822, 0)
+
+slideFrame_2.Name = "slideFrame"
+slideFrame_2.Parent = bSliderFrame_2
+slideFrame_2.BackgroundColor3 = Color3.fromRGB(124, 128, 123)
+slideFrame_2.BackgroundTransparency = 0.250
+slideFrame_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+slideFrame_2.BorderSizePixel = 0
+slideFrame_2.Size = UDim2.new(0, 0, 1, 0)
+
+amountValue_2.Name = "amountValue"
+amountValue_2.Parent = bSliderFrame_2
+amountValue_2.AnchorPoint = Vector2.new(0.5, 0.5)
+amountValue_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+amountValue_2.BackgroundTransparency = 1.000
+amountValue_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+amountValue_2.BorderSizePixel = 0
+amountValue_2.Position = UDim2.new(0.521337509, 0, 0.451219648, 0)
+amountValue_2.Size = UDim2.new(0.957324922, 0, 1.09756374, 0)
+amountValue_2.ZIndex = 2
+amountValue_2.Font = Enum.Font.SourceSans
+amountValue_2.Text = "0"
+amountValue_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+amountValue_2.TextSize = 15.000
+amountValue_2.TextStrokeTransparency = 0.000
+amountValue_2.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 2)
+UICorner_3.Parent = bSliderFrame_2
+
+UIStroke_15.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_15.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_15.Thickness = 1.7999999523162842
+UIStroke_15.Parent = bSliderFrame_2
+
+UIStroke_16.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_16.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_16.Thickness = 1.7999999523162842
+UIStroke_16.Parent = TextLabel_7
+
+TextLabel_9.Parent = TabFrame1
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_9.Position = UDim2.new(0.0229999796, 0, 0.371924609, 0)
+TextLabel_9.Size = UDim2.new(0, 282, 0, 48)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = ""
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextStrokeTransparency = 0.000
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_10.Parent = TextLabel_9
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_10.Position = UDim2.new(0.0248226952, 0, 0, 0)
+TextLabel_10.Size = UDim2.new(0, 72, 0, 27)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "Walkspeed"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextStrokeTransparency = 0.000
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton_7.Name = "WipButton"
+WipButton_7.Parent = TextLabel_9
+WipButton_7.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WipButton_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+WipButton_7.Position = UDim2.new(0.904255271, 0, 0.493055522, 0)
+WipButton_7.Size = UDim2.new(0, 15, 0, 15)
+WipButton_7.Font = Enum.Font.SourceSans
+WipButton_7.Text = ""
+WipButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+WipButton_7.TextSize = 14.000
+
+UIStroke_17.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_17.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_17.Thickness = 1.399999976158142
+UIStroke_17.Parent = WipButton_7
+
+UICorner_4.CornerRadius = UDim.new(0, 2)
+UICorner_4.Parent = WipButton_7
+
+mainFrame_3.Name = "mainFrame"
+mainFrame_3.Parent = TextLabel_9
+mainFrame_3.AnchorPoint = Vector2.new(0.5, 0.5)
+mainFrame_3.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+mainFrame_3.BackgroundTransparency = 1.000
+mainFrame_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+mainFrame_3.BorderSizePixel = 0
+mainFrame_3.Position = UDim2.new(0.193262428, 0, 0.5, 0)
+mainFrame_3.Size = UDim2.new(0.530005276, 0, 0.999999464, 0)
+
+UIAspectRatioConstraint_3.Parent = mainFrame_3
+UIAspectRatioConstraint_3.AspectRatio = 2.010
+
+bSliderFrame_3.Name = "bSliderFrame"
+bSliderFrame_3.Parent = mainFrame_3
+bSliderFrame_3.AnchorPoint = Vector2.new(0.5, 0.5)
+bSliderFrame_3.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+bSliderFrame_3.BorderColor3 = Color3.fromRGB(0, 170, 255)
+bSliderFrame_3.BorderSizePixel = 0
+bSliderFrame_3.Position = UDim2.new(1.21279001, 0, 0.663194418, 0)
+bSliderFrame_3.Size = UDim2.new(2.42924857, 0, 0.284721822, 0)
+
+slideFrame_3.Name = "slideFrame"
+slideFrame_3.Parent = bSliderFrame_3
+slideFrame_3.BackgroundColor3 = Color3.fromRGB(124, 128, 123)
+slideFrame_3.BackgroundTransparency = 0.250
+slideFrame_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+slideFrame_3.BorderSizePixel = 0
+slideFrame_3.Size = UDim2.new(0, 0, 1, 0)
+
+amountValue_3.Name = "amountValue"
+amountValue_3.Parent = bSliderFrame_3
+amountValue_3.AnchorPoint = Vector2.new(0.5, 0.5)
+amountValue_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+amountValue_3.BackgroundTransparency = 1.000
+amountValue_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+amountValue_3.BorderSizePixel = 0
+amountValue_3.Position = UDim2.new(0.521337509, 0, 0.451219648, 0)
+amountValue_3.Size = UDim2.new(0.957324922, 0, 1.09756374, 0)
+amountValue_3.ZIndex = 2
+amountValue_3.Font = Enum.Font.SourceSans
+amountValue_3.Text = "0"
+amountValue_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+amountValue_3.TextSize = 15.000
+amountValue_3.TextStrokeTransparency = 0.000
+amountValue_3.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 2)
+UICorner_5.Parent = bSliderFrame_3
+
+UIStroke_18.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_18.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_18.Thickness = 1.7999999523162842
+UIStroke_18.Parent = bSliderFrame_3
+
+UIStroke_19.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_19.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_19.Thickness = 1.7999999523162842
+UIStroke_19.Parent = TextLabel_9
+
+TextLabel_11.Parent = TabFrame1
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_11.Position = UDim2.new(0.0227975547, 0, 0.0297859292, 0)
+TextLabel_11.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "AntiFall"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextStrokeTransparency = 0.000
+TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton_8.Name = "WipButton"
+WipButton_8.Parent = TextLabel_11
+WipButton_8.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WipButton_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+WipButton_8.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
+WipButton_8.Size = UDim2.new(0, 15, 0, 15)
+WipButton_8.Font = Enum.Font.SourceSans
+WipButton_8.Text = ""
+WipButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+WipButton_8.TextSize = 14.000
+
+UIStroke_20.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_20.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_20.Thickness = 1.399999976158142
+UIStroke_20.Parent = WipButton_8
+
+UIStroke_21.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_21.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_21.Thickness = 1.7999999523162842
+UIStroke_21.Parent = TextLabel_11
+
+Tab1Button.Name = "Tab1Button"
+Tab1Button.Parent = Container
+Tab1Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Tab1Button.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Tab1Button.Position = UDim2.new(-0.0118764844, 0, 0.0460829511, 0)
+Tab1Button.Size = UDim2.new(0, 123, 0, 21)
+Tab1Button.Font = Enum.Font.SourceSans
+Tab1Button.Text = "                    Local"
+Tab1Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tab1Button.TextSize = 14.000
+Tab1Button.TextStrokeTransparency = 0.000
+Tab1Button.TextXAlignment = Enum.TextXAlignment.Left
+
+UIStroke_22.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_22.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_22.Thickness = 1.7999999523162842
+UIStroke_22.Parent = Tab1Button
+
+ImageLabel_2.Parent = Tab1Button
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ImageLabel_2.Position = UDim2.new(0.048780486, 0, 0, 0)
+ImageLabel_2.Size = UDim2.new(0, 20, 0, 20)
+ImageLabel_2.Image = "rbxassetid://12671673643"
+
+Tab2Button.Name = "Tab2Button"
+Tab2Button.Parent = Container
+Tab2Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Tab2Button.Position = UDim2.new(-0.0118764844, 0, 0.193548396, 0)
+Tab2Button.Size = UDim2.new(0, 123, 0, 21)
+Tab2Button.Font = Enum.Font.SourceSans
+Tab2Button.Text = "                   Combat"
+Tab2Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tab2Button.TextSize = 14.000
+Tab2Button.TextStrokeTransparency = 0.000
+Tab2Button.TextXAlignment = Enum.TextXAlignment.Left
+
+UIStroke_23.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_23.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_23.Thickness = 1.7999999523162842
+UIStroke_23.Parent = Tab2Button
+
+ImageLabel_3.Parent = Tab2Button
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ImageLabel_3.Position = UDim2.new(0.048780486, 0, 0, 0)
+ImageLabel_3.Size = UDim2.new(0, 20, 0, 20)
+ImageLabel_3.Image = "rbxassetid://12671744738"
+
+Tab4Button.Name = "Tab4Button"
+Tab4Button.Parent = Container
+Tab4Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Tab4Button.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Tab4Button.Position = UDim2.new(-0.0120000048, 0, 0.503824949, 0)
+Tab4Button.Size = UDim2.new(0, 123, 0, 21)
+Tab4Button.Font = Enum.Font.SourceSans
+Tab4Button.Text = "Setting's"
+Tab4Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tab4Button.TextSize = 14.000
+Tab4Button.TextStrokeTransparency = 0.000
+
+ImageLabel_4.Parent = Tab4Button
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ImageLabel_4.Position = UDim2.new(0.048780486, 0, 0, 0)
+ImageLabel_4.Size = UDim2.new(0, 20, 0, 20)
+ImageLabel_4.Image = "rbxassetid://12671757664"
+
+UIStroke_24.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_24.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_24.Thickness = 1.7999999523162842
+UIStroke_24.Parent = Tab4Button
+
+TabFrame2.Name = "TabFrame2"
+TabFrame2.Parent = Container
+TabFrame2.Active = true
+TabFrame2.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+TabFrame2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TabFrame2.BackgroundTransparency = 1.000
+TabFrame2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TabFrame2.Position = UDim2.new(0.292551666, 0, -0.0138248848, 0)
+TabFrame2.Size = UDim2.new(0, 297, 0, 225)
+TabFrame2.Visible = false
+TabFrame2.ScrollBarThickness = 0
+
+TextLabel_12.Parent = TabFrame2
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_12.Position = UDim2.new(0.0227974523, 0, 0.0291233324, 0)
+TextLabel_12.Size = UDim2.new(0, 282, 0, 48)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = ""
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextStrokeTransparency = 0.000
+TextLabel_12.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_13.Parent = TextLabel_12
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_13.Position = UDim2.new(0.0248226952, 0, 0, 0)
+TextLabel_13.Size = UDim2.new(0, 171, 0, 27)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = "AutoSlam"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextStrokeTransparency = 0.000
+TextLabel_13.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton_9.Name = "WipButton"
+WipButton_9.Parent = TextLabel_12
+WipButton_9.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WipButton_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+WipButton_9.Position = UDim2.new(0.904255271, 0, 0.493055552, 0)
+WipButton_9.Size = UDim2.new(0, 15, 0, 15)
+WipButton_9.Font = Enum.Font.SourceSans
+WipButton_9.Text = ""
+WipButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+WipButton_9.TextSize = 14.000
+
+UIStroke_25.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_25.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_25.Thickness = 1.399999976158142
+UIStroke_25.Parent = WipButton_9
+
+mainFrame_4.Name = "mainFrame"
+mainFrame_4.Parent = TextLabel_12
+mainFrame_4.AnchorPoint = Vector2.new(0.5, 0.5)
+mainFrame_4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+mainFrame_4.BackgroundTransparency = 1.000
+mainFrame_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+mainFrame_4.BorderSizePixel = 0
+mainFrame_4.Position = UDim2.new(0.193262428, 0, 0.5, 0)
+mainFrame_4.Size = UDim2.new(0.530005276, 0, 0.999999464, 0)
+
+bSliderFrame_4.Name = "bSliderFrame"
+bSliderFrame_4.Parent = mainFrame_4
+bSliderFrame_4.AnchorPoint = Vector2.new(0.5, 0.5)
+bSliderFrame_4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+bSliderFrame_4.BorderColor3 = Color3.fromRGB(0, 170, 255)
+bSliderFrame_4.BorderSizePixel = 0
+bSliderFrame_4.Position = UDim2.new(1.21279001, 0, 0.663194418, 0)
+bSliderFrame_4.Size = UDim2.new(2.42924857, 0, 0.284721822, 0)
+
+slideFrame_4.Name = "slideFrame"
+slideFrame_4.Parent = bSliderFrame_4
+slideFrame_4.BackgroundColor3 = Color3.fromRGB(124, 128, 123)
+slideFrame_4.BackgroundTransparency = 0.250
+slideFrame_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+slideFrame_4.BorderSizePixel = 0
+slideFrame_4.Size = UDim2.new(0, 0, 1, 0)
+
+amountValue_4.Name = "amountValue"
+amountValue_4.Parent = bSliderFrame_4
+amountValue_4.AnchorPoint = Vector2.new(0.5, 0.5)
+amountValue_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+amountValue_4.BackgroundTransparency = 1.000
+amountValue_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+amountValue_4.BorderSizePixel = 0
+amountValue_4.Position = UDim2.new(0.521337628, 0, 0.451219648, 0)
+amountValue_4.Size = UDim2.new(0.957325161, 0, 1.09756374, 0)
+amountValue_4.ZIndex = 2
+amountValue_4.Font = Enum.Font.SourceSans
+amountValue_4.Text = "0"
+amountValue_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+amountValue_4.TextSize = 15.000
+amountValue_4.TextStrokeTransparency = 0.000
+amountValue_4.TextWrapped = true
+
+UIStroke_26.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_26.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_26.Thickness = 1.7999999523162842
+UIStroke_26.Parent = bSliderFrame_4
+
+UICorner_6.CornerRadius = UDim.new(0, 2)
+UICorner_6.Parent = bSliderFrame_4
+
+UIAspectRatioConstraint_4.Parent = mainFrame_4
+UIAspectRatioConstraint_4.AspectRatio = 2.010
+
+UIStroke_27.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_27.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_27.Thickness = 1.7999999523162842
+UIStroke_27.Parent = TextLabel_12
+
+TextLabel_14.Parent = TabFrame2
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_14.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_14.Position = UDim2.new(0.0227974523, 0, 0.149800315, 0)
+TextLabel_14.Size = UDim2.new(0, 282, 0, 48)
+TextLabel_14.Font = Enum.Font.SourceSans
+TextLabel_14.Text = ""
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextStrokeTransparency = 0.000
+TextLabel_14.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_15.Parent = TextLabel_14
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_15.Position = UDim2.new(0.0248226952, 0, 0, 0)
+TextLabel_15.Size = UDim2.new(0, 72, 0, 27)
+TextLabel_15.Font = Enum.Font.SourceSans
+TextLabel_15.Text = "AutoShove"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextStrokeTransparency = 0.000
+TextLabel_15.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton_10.Name = "WipButton"
+WipButton_10.Parent = TextLabel_14
+WipButton_10.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WipButton_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+WipButton_10.Position = UDim2.new(0.904255271, 0, 0.493055552, 0)
+WipButton_10.Size = UDim2.new(0, 15, 0, 15)
+WipButton_10.Font = Enum.Font.SourceSans
+WipButton_10.Text = ""
+WipButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+WipButton_10.TextSize = 14.000
+
+UIStroke_28.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_28.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_28.Thickness = 1.399999976158142
+UIStroke_28.Parent = WipButton_10
+
+mainFrame_5.Name = "mainFrame"
+mainFrame_5.Parent = TextLabel_14
+mainFrame_5.AnchorPoint = Vector2.new(0.5, 0.5)
+mainFrame_5.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+mainFrame_5.BackgroundTransparency = 1.000
+mainFrame_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+mainFrame_5.BorderSizePixel = 0
+mainFrame_5.Position = UDim2.new(0.193262428, 0, 0.5, 0)
+mainFrame_5.Size = UDim2.new(0.530005276, 0, 0.999999464, 0)
+
+bSliderFrame_5.Name = "bSliderFrame"
+bSliderFrame_5.Parent = mainFrame_5
+bSliderFrame_5.AnchorPoint = Vector2.new(0.5, 0.5)
+bSliderFrame_5.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+bSliderFrame_5.BorderColor3 = Color3.fromRGB(0, 170, 255)
+bSliderFrame_5.BorderSizePixel = 0
+bSliderFrame_5.Position = UDim2.new(1.21279001, 0, 0.663194418, 0)
+bSliderFrame_5.Size = UDim2.new(2.42924857, 0, 0.284721822, 0)
+
+slideFrame_5.Name = "slideFrame"
+slideFrame_5.Parent = bSliderFrame_5
+slideFrame_5.BackgroundColor3 = Color3.fromRGB(124, 128, 123)
+slideFrame_5.BackgroundTransparency = 0.250
+slideFrame_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+slideFrame_5.BorderSizePixel = 0
+slideFrame_5.Size = UDim2.new(0, 0, 1, 0)
+
+amountValue_5.Name = "amountValue"
+amountValue_5.Parent = bSliderFrame_5
+amountValue_5.AnchorPoint = Vector2.new(0.5, 0.5)
+amountValue_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+amountValue_5.BackgroundTransparency = 1.000
+amountValue_5.BorderSizePixel = 0
+amountValue_5.Position = UDim2.new(0.521337628, 0, 0.451219648, 0)
+amountValue_5.Size = UDim2.new(0.957325161, 0, 1.09756374, 0)
+amountValue_5.ZIndex = 2
+amountValue_5.Font = Enum.Font.SourceSans
+amountValue_5.Text = "0"
+amountValue_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+amountValue_5.TextSize = 15.000
+amountValue_5.TextStrokeTransparency = 0.000
+amountValue_5.TextWrapped = true
+
+UIStroke_29.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_29.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_29.Thickness = 1.7999999523162842
+UIStroke_29.Parent = bSliderFrame_5
+
+UICorner_7.CornerRadius = UDim.new(0, 2)
+UICorner_7.Parent = bSliderFrame_5
+
+UIAspectRatioConstraint_5.Parent = mainFrame_5
+UIAspectRatioConstraint_5.AspectRatio = 2.010
+
+UIStroke_30.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_30.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_30.Thickness = 1.7999999523162842
+UIStroke_30.Parent = TextLabel_14
+
+AutoBuy.Name = "AutoBuy"
+AutoBuy.Parent = TabFrame2
+AutoBuy.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+AutoBuy.Position = UDim2.new(0.0227975547, 0, 0.287294507, 0)
+AutoBuy.Size = UDim2.new(0, 282, 0, 27)
+AutoBuy.Visible = false
+AutoBuy.Font = Enum.Font.SourceSans
+AutoBuy.Text = "AutoBuy"
+AutoBuy.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutoBuy.TextSize = 14.000
+AutoBuy.TextStrokeTransparency = 0.000
+AutoBuy.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton_11.Name = "WipButton"
+WipButton_11.Parent = AutoBuy
+WipButton_11.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WipButton_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+WipButton_11.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
+WipButton_11.Size = UDim2.new(0, 15, 0, 15)
+WipButton_11.Font = Enum.Font.SourceSans
+WipButton_11.Text = ""
+WipButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+WipButton_11.TextSize = 14.000
+
+UIStroke_31.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_31.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_31.Thickness = 1.399999976158142
+UIStroke_31.Parent = WipButton_11
+
+UIStroke_32.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_32.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_32.Thickness = 1.7999999523162842
+UIStroke_32.Parent = AutoBuy
+
+DropDownFrame.Name = "DropDownFrame"
+DropDownFrame.Parent = AutoBuy
+DropDownFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+DropDownFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DropDownFrame.BorderSizePixel = 0
+DropDownFrame.Position = UDim2.new(0.195035458, 0, 1.18518853, 0)
+DropDownFrame.Size = UDim2.new(0, 152, 0, 132)
+DropDownFrame.Visible = false
+
+Bat.Name = "Bat"
+Bat.Parent = DropDownFrame
+Bat.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Bat.BorderSizePixel = 0
+Bat.Position = UDim2.new(0.0202632695, 0, 0.0102134477, 0)
+Bat.Size = UDim2.new(0, 145, 0, 20)
+Bat.Font = Enum.Font.SourceSans
+Bat.Text = "Bat"
+Bat.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bat.TextSize = 14.000
+
+Shank.Name = "Shank"
+Shank.Parent = DropDownFrame
+Shank.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Shank.BorderSizePixel = 0
+Shank.Position = UDim2.new(0.0202632695, 0, 0.244264543, 0)
+Shank.Size = UDim2.new(0, 145, 0, 20)
+Shank.Font = Enum.Font.SourceSans
+Shank.Text = "Shank"
+Shank.TextColor3 = Color3.fromRGB(255, 255, 255)
+Shank.TextSize = 14.000
+
+Brass.Name = "Brass"
+Brass.Parent = DropDownFrame
+Brass.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Brass.BorderSizePixel = 0
+Brass.Position = UDim2.new(0.0202632695, 0, 0.470341086, 0)
+Brass.Size = UDim2.new(0, 145, 0, 20)
+Brass.Font = Enum.Font.SourceSans
+Brass.Text = "Brass Knuckles"
+Brass.TextColor3 = Color3.fromRGB(255, 255, 255)
+Brass.TextSize = 14.000
+
+Gloves.Name = "Gloves"
+Gloves.Parent = DropDownFrame
+Gloves.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Gloves.BorderSizePixel = 0
+Gloves.Position = UDim2.new(0.0202632695, 0, 0.682462275, 0)
+Gloves.Size = UDim2.new(0, 145, 0, 20)
+Gloves.Font = Enum.Font.SourceSans
+Gloves.Text = "Boxing Gloves"
+Gloves.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gloves.TextSize = 14.000
+
+TabFrame4.Name = "TabFrame4"
+TabFrame4.Parent = Container
+TabFrame4.Active = true
+TabFrame4.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+TabFrame4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TabFrame4.BackgroundTransparency = 1.000
+TabFrame4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TabFrame4.Position = UDim2.new(0.292551666, 0, -0.0138248848, 0)
+TabFrame4.Size = UDim2.new(0, 297, 0, 225)
+TabFrame4.Visible = false
+TabFrame4.ScrollBarThickness = 0
+
+Rejoin.Name = "Rejoin"
+Rejoin.Parent = TabFrame4
+Rejoin.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Rejoin.Position = UDim2.new(0.188552082, 0, 0.201503202, 0)
+Rejoin.Size = UDim2.new(0, 162, 0, 24)
+Rejoin.Font = Enum.Font.SourceSans
+Rejoin.Text = "Rejoin"
+Rejoin.TextColor3 = Color3.fromRGB(255, 255, 255)
+Rejoin.TextSize = 14.000
+
+UIStroke_33.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_33.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_33.Thickness = 1.7999999523162842
+UIStroke_33.Parent = Rejoin
+
+TextLabel_16.Parent = TabFrame4
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_16.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_16.Position = UDim2.new(0.0261645596, 0, 0.0217505954, 0)
+TextLabel_16.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_16.Font = Enum.Font.SourceSans
+TextLabel_16.Text = "AntiAFK"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextStrokeTransparency = 0.000
+TextLabel_16.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton_12.Name = "WipButton"
+WipButton_12.Parent = TextLabel_16
+WipButton_12.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WipButton_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
+WipButton_12.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
+WipButton_12.Size = UDim2.new(0, 15, 0, 15)
+WipButton_12.Font = Enum.Font.SourceSans
+WipButton_12.Text = ""
+WipButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+WipButton_12.TextSize = 14.000
+
+UICorner_8.CornerRadius = UDim.new(0, 2)
+UICorner_8.Parent = WipButton_12
+
+UIStroke_34.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_34.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_34.Thickness = 1.399999976158142
+UIStroke_34.Parent = WipButton_12
+
+UIStroke_35.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_35.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_35.Thickness = 1.7999999523162842
+UIStroke_35.Parent = TextLabel_16
+
+TextLabel_17.Parent = TabFrame4
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_17.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_17.Position = UDim2.new(0.0261645596, 0, 0.103197649, 0)
+TextLabel_17.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_17.Font = Enum.Font.SourceSans
+TextLabel_17.Text = "AntiDeathVoid"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 14.000
+TextLabel_17.TextStrokeTransparency = 0.000
+TextLabel_17.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton_13.Name = "WipButton"
+WipButton_13.Parent = TextLabel_17
+WipButton_13.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WipButton_13.BorderColor3 = Color3.fromRGB(27, 42, 53)
+WipButton_13.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
+WipButton_13.Size = UDim2.new(0, 15, 0, 15)
+WipButton_13.Font = Enum.Font.SourceSans
+WipButton_13.Text = ""
+WipButton_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+WipButton_13.TextSize = 14.000
+
+UICorner_9.CornerRadius = UDim.new(0, 2)
+UICorner_9.Parent = WipButton_13
+
+UIStroke_36.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_36.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_36.Thickness = 1.399999976158142
+UIStroke_36.Parent = WipButton_13
+
+UIStroke_37.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_37.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_37.Thickness = 1.7999999523162842
+UIStroke_37.Parent = TextLabel_17
+
+Tab3Button.Name = "Tab3Button"
+Tab3Button.Parent = Container
+Tab3Button.Active = false
+Tab3Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Tab3Button.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Tab3Button.Position = UDim2.new(-0.0118764844, 0, 0.345622122, 0)
+Tab3Button.Size = UDim2.new(0, 123, 0, 21)
+Tab3Button.Font = Enum.Font.SourceSans
+Tab3Button.Text = "AutoFarm"
+Tab3Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tab3Button.TextSize = 14.000
+Tab3Button.TextStrokeTransparency = 0.000
+
+UIStroke_38.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_38.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_38.Thickness = 1.7999999523162842
+UIStroke_38.Parent = Tab3Button
+
+ImageLabel_5.Parent = Tab3Button
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BackgroundTransparency = 1.000
+ImageLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ImageLabel_5.Position = UDim2.new(0.048780486, 0, 0, 0)
+ImageLabel_5.Size = UDim2.new(0, 20, 0, 20)
+ImageLabel_5.Image = "rbxassetid://84854819063665"
+
+UIStroke_39.Color = Color3.fromRGB(80, 83, 81)
+UIStroke_39.Thickness = 1.7999999523162842
+UIStroke_39.Parent = Container
+
+Padding.Name = "Padding"
+Padding.Parent = Container
+Padding.PaddingBottom = UDim.new(0, 3)
+Padding.PaddingLeft = UDim.new(0, 10)
+Padding.PaddingTop = UDim.new(0, 5)
+
+TabFrame3.Name = "TabFrame3"
+TabFrame3.Parent = Container
+TabFrame3.Active = true
+TabFrame3.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+TabFrame3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TabFrame3.BackgroundTransparency = 1.000
+TabFrame3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TabFrame3.Position = UDim2.new(0.292551666, 0, -0.0138248848, 0)
+TabFrame3.Size = UDim2.new(0, 297, 0, 225)
+TabFrame3.Visible = false
+TabFrame3.ScrollBarThickness = 0
+
+TargetHit.Name = "TargetHit"
+TargetHit.Parent = TabFrame3
+TargetHit.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TargetHit.Position = UDim2.new(0.0162659716, 0, 0.027697023, 0)
+TargetHit.Size = UDim2.new(0, 282, 0, 27)
+TargetHit.Font = Enum.Font.SourceSans
+TargetHit.Text = "AutoHit Target"
+TargetHit.TextColor3 = Color3.fromRGB(255, 255, 255)
+TargetHit.TextSize = 14.000
+TargetHit.TextStrokeTransparency = 0.000
+TargetHit.TextXAlignment = Enum.TextXAlignment.Left
+
+UIStroke_40.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_40.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_40.Thickness = 1.7999999523162842
+UIStroke_40.Parent = TargetHit
+
+WipButton_14.Name = "WipButton"
+WipButton_14.Parent = TargetHit
+WipButton_14.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WipButton_14.BorderColor3 = Color3.fromRGB(27, 42, 53)
+WipButton_14.Position = UDim2.new(0.904255271, 0, 0.23842591, 0)
+WipButton_14.Size = UDim2.new(0, 15, 0, 15)
+WipButton_14.Font = Enum.Font.SourceSans
+WipButton_14.Text = ""
+WipButton_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+WipButton_14.TextSize = 14.000
+
+UIStroke_41.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_41.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_41.Thickness = 1.399999976158142
+UIStroke_41.Parent = WipButton_14
+
+TargetBox.Name = "TargetBox"
+TargetBox.Parent = TargetHit
+TargetBox.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TargetBox.BorderSizePixel = 0
+TargetBox.Position = UDim2.new(0.156028375, 0, 1.22222221, 0)
+TargetBox.Size = UDim2.new(0, 158, 0, 11)
+TargetBox.Font = Enum.Font.SourceSans
+TargetBox.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+TargetBox.PlaceholderText = "Type Target Here"
+TargetBox.Text = ""
+TargetBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TargetBox.TextSize = 14.000
+
+UIStroke_42.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_42.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_42.Thickness = 1.399999976158142
+UIStroke_42.Parent = TargetBox
+
+TextLabel_18.Parent = TabFrame3
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_18.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_18.Position = UDim2.new(0.0138989585, 0, 0.162632957, 0)
+TextLabel_18.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_18.Font = Enum.Font.SourceSans
+TextLabel_18.Text = "AutoFarm"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 14.000
+TextLabel_18.TextStrokeTransparency = 0.000
+TextLabel_18.TextXAlignment = Enum.TextXAlignment.Left
+
+Pad2.Name = "Pad2"
+Pad2.Parent = TextLabel_18
+Pad2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Pad2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Pad2.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
+Pad2.Size = UDim2.new(0, 15, 0, 15)
+Pad2.Font = Enum.Font.SourceSans
+Pad2.Text = ""
+Pad2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Pad2.TextSize = 14.000
+
+UIStroke_43.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_43.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_43.Thickness = 1.399999976158142
+UIStroke_43.Parent = Pad2
+
+UIStroke_44.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_44.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_44.Thickness = 1.7999999523162842
+UIStroke_44.Parent = TextLabel_18
+
+Pad1.Name = "Pad1"
+Pad1.Parent = TextLabel_18
+Pad1.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Pad1.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Pad1.Position = UDim2.new(0.794326246, 0, 0.259259254, 0)
+Pad1.Size = UDim2.new(0, 15, 0, 15)
+Pad1.Font = Enum.Font.SourceSans
+Pad1.Text = ""
+Pad1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Pad1.TextSize = 14.000
+
+UIStroke_45.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_45.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_45.Thickness = 1.399999976158142
+UIStroke_45.Parent = Pad1
+
+TextLabel_19.Parent = TextLabel_18
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_19.BorderSizePixel = 0
+TextLabel_19.Position = UDim2.new(0.744680822, 0, 1.03703701, 0)
+TextLabel_19.Size = UDim2.new(0, 42, 0, 28)
+TextLabel_19.Font = Enum.Font.SourceSans
+TextLabel_19.Text = "Pad1"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 14.000
+
+TextLabel_20.Parent = TextLabel_18
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_20.BorderSizePixel = 0
+TextLabel_20.Position = UDim2.new(0.858156025, 0, 1.03703701, 0)
+TextLabel_20.Size = UDim2.new(0, 42, 0, 28)
+TextLabel_20.Font = Enum.Font.SourceSans
+TextLabel_20.Text = "Pad2"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 14.000
+
+AutoReset.Name = "AutoReset"
+AutoReset.Parent = TextLabel_18
+AutoReset.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+AutoReset.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AutoReset.Position = UDim2.new(0.613475204, 0, 0.259259254, 0)
+AutoReset.Size = UDim2.new(0, 15, 0, 15)
+AutoReset.Font = Enum.Font.SourceSans
+AutoReset.Text = ""
+AutoReset.TextColor3 = Color3.fromRGB(0, 0, 0)
+AutoReset.TextSize = 14.000
+
+UIStroke_46.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_46.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_46.Thickness = 1.399999976158142
+UIStroke_46.Parent = AutoReset
+
+TextLabel_21.Parent = TextLabel_18
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_21.BorderSizePixel = 0
+TextLabel_21.Position = UDim2.new(0.567375898, 0, 1.03703701, 0)
+TextLabel_21.Size = UDim2.new(0, 42, 0, 28)
+TextLabel_21.Font = Enum.Font.SourceSans
+TextLabel_21.Text = "AutoReset"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextSize = 14.000
+
+TextLabel_22.Parent = TextLabel_18
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_22.BorderSizePixel = 0
+TextLabel_22.Position = UDim2.new(0.379432619, 0, 1.44444442, 0)
+TextLabel_22.Size = UDim2.new(0, 69, 0, 42)
+TextLabel_22.Font = Enum.Font.SourceSans
+TextLabel_22.Text = "Note: Use Autoreset on the acc your not farming respect on"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextSize = 14.000
+
+TextLabel_23.Parent = TabFrame3
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_23.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_23.Position = UDim2.new(0.0126964431, 0, 0.339522898, 0)
+TextLabel_23.Size = UDim2.new(0, 282, 0, 48)
+TextLabel_23.Font = Enum.Font.SourceSans
+TextLabel_23.Text = ""
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.TextSize = 14.000
+TextLabel_23.TextStrokeTransparency = 0.000
+TextLabel_23.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_24.Parent = TextLabel_23
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_24.Position = UDim2.new(0.0248226952, 0, 0, 0)
+TextLabel_24.Size = UDim2.new(0, 72, 0, 27)
+TextLabel_24.Font = Enum.Font.SourceSans
+TextLabel_24.Text = "AutoFarmLowHealth"
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.TextSize = 14.000
+TextLabel_24.TextStrokeTransparency = 0.000
+TextLabel_24.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton_15.Name = "WipButton"
+WipButton_15.Parent = TextLabel_23
+WipButton_15.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WipButton_15.BorderColor3 = Color3.fromRGB(27, 42, 53)
+WipButton_15.Position = UDim2.new(0.904255271, 0, 0.493055552, 0)
+WipButton_15.Size = UDim2.new(0, 15, 0, 15)
+WipButton_15.Font = Enum.Font.SourceSans
+WipButton_15.Text = ""
+WipButton_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+WipButton_15.TextSize = 14.000
+
+UIStroke_47.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_47.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_47.Thickness = 1.399999976158142
+UIStroke_47.Parent = WipButton_15
+
+mainFrame_6.Name = "mainFrame"
+mainFrame_6.Parent = TextLabel_23
+mainFrame_6.AnchorPoint = Vector2.new(0.5, 0.5)
+mainFrame_6.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+mainFrame_6.BackgroundTransparency = 1.000
+mainFrame_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+mainFrame_6.BorderSizePixel = 0
+mainFrame_6.Position = UDim2.new(0.193262428, 0, 0.5, 0)
+mainFrame_6.Size = UDim2.new(0.530005276, 0, 0.999999464, 0)
+
+bSliderFrame_6.Name = "bSliderFrame"
+bSliderFrame_6.Parent = mainFrame_6
+bSliderFrame_6.AnchorPoint = Vector2.new(0.5, 0.5)
+bSliderFrame_6.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+bSliderFrame_6.BorderColor3 = Color3.fromRGB(0, 170, 255)
+bSliderFrame_6.BorderSizePixel = 0
+bSliderFrame_6.Position = UDim2.new(1.21279001, 0, 0.663194418, 0)
+bSliderFrame_6.Size = UDim2.new(2.42924857, 0, 0.284721822, 0)
+
+slideFrame_6.Name = "slideFrame"
+slideFrame_6.Parent = bSliderFrame_6
+slideFrame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+slideFrame_6.BackgroundTransparency = 0.250
+slideFrame_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+slideFrame_6.BorderSizePixel = 0
+slideFrame_6.Size = UDim2.new(0, 0, 1, 0)
+
+amountValue_6.Name = "amountValue"
+amountValue_6.Parent = bSliderFrame_6
+amountValue_6.AnchorPoint = Vector2.new(0.5, 0.5)
+amountValue_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+amountValue_6.BackgroundTransparency = 1.000
+amountValue_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+amountValue_6.BorderSizePixel = 0
+amountValue_6.Position = UDim2.new(0.521337628, 0, 0.451219648, 0)
+amountValue_6.Size = UDim2.new(0.957325161, 0, 1.09756374, 0)
+amountValue_6.ZIndex = 2
+amountValue_6.Font = Enum.Font.SourceSans
+amountValue_6.Text = "0"
+amountValue_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+amountValue_6.TextSize = 15.000
+amountValue_6.TextStrokeTransparency = 0.000
+amountValue_6.TextWrapped = true
+
+UIStroke_48.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_48.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_48.Thickness = 1.7999999523162842
+UIStroke_48.Parent = bSliderFrame_6
+
+UICorner_10.CornerRadius = UDim.new(0, 2)
+UICorner_10.Parent = bSliderFrame_6
+
+UIAspectRatioConstraint_6.Parent = mainFrame_6
+UIAspectRatioConstraint_6.AspectRatio = 2.010
+
+UIStroke_49.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_49.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_49.Thickness = 1.7999999523162842
+UIStroke_49.Parent = TextLabel_23
+
+TextLabel_25.Parent = TabFrame3
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_25.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_25.Position = UDim2.new(0.0105319554, 0, 0.484296799, 0)
+TextLabel_25.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_25.Font = Enum.Font.SourceSans
+TextLabel_25.Text = "AutoKillDead"
+TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.TextSize = 14.000
+TextLabel_25.TextStrokeTransparency = 0.000
+TextLabel_25.TextXAlignment = Enum.TextXAlignment.Left
+
+UIStroke_50.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_50.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_50.Thickness = 1.7999999523162842
+UIStroke_50.Parent = TextLabel_25
+
+WipButton_16.Name = "WipButton"
+WipButton_16.Parent = TextLabel_25
+WipButton_16.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WipButton_16.BorderColor3 = Color3.fromRGB(27, 42, 53)
+WipButton_16.Position = UDim2.new(0.897163093, 0, 0.259259254, 0)
+WipButton_16.Size = UDim2.new(0, 15, 0, 15)
+WipButton_16.Font = Enum.Font.SourceSans
+WipButton_16.Text = ""
+WipButton_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+WipButton_16.TextSize = 14.000
+
+UIStroke_51.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_51.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_51.Thickness = 1.399999976158142
+UIStroke_51.Parent = WipButton_16
+
+TextLabel_26.Parent = TabFrame3
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_26.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_26.Position = UDim2.new(0.0105319554, 0, 0.569878936, 0)
+TextLabel_26.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_26.Font = Enum.Font.SourceSans
+TextLabel_26.Text = "FastHit"
+TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.TextSize = 14.000
+TextLabel_26.TextStrokeTransparency = 0.000
+TextLabel_26.TextXAlignment = Enum.TextXAlignment.Left
+
+UIStroke_52.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_52.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_52.Thickness = 1.7999999523162842
+UIStroke_52.Parent = TextLabel_26
+
+WipButton_17.Name = "WipButton"
+WipButton_17.Parent = TextLabel_26
+WipButton_17.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WipButton_17.BorderColor3 = Color3.fromRGB(27, 42, 53)
+WipButton_17.Position = UDim2.new(0.897163093, 0, 0.259259254, 0)
+WipButton_17.Size = UDim2.new(0, 15, 0, 15)
+WipButton_17.Font = Enum.Font.SourceSans
+WipButton_17.Text = ""
+WipButton_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+WipButton_17.TextSize = 14.000
+
+UIStroke_53.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_53.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_53.Thickness = 1.399999976158142
+UIStroke_53.Parent = WipButton_17
+
+AnimSpeed.Name = "AnimSpeed"
+AnimSpeed.Parent = TextLabel_26
+AnimSpeed.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+AnimSpeed.BorderColor3 = Color3.fromRGB(255, 0, 0)
+AnimSpeed.Position = UDim2.new(0.599290788, 0, 0.259259254, 0)
+AnimSpeed.Size = UDim2.new(0, 56, 0, 15)
+AnimSpeed.Font = Enum.Font.SourceSans
+AnimSpeed.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+AnimSpeed.PlaceholderText = "Speed"
+AnimSpeed.Text = ""
+AnimSpeed.TextColor3 = Color3.fromRGB(255, 255, 255)
+AnimSpeed.TextScaled = true
+AnimSpeed.TextSize = 5.000
+AnimSpeed.TextWrapped = true
+
+TextLabel_27.Parent = TabFrame3
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_27.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_27.Position = UDim2.new(0.0138989585, 0, 0.741213918, 0)
+TextLabel_27.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_27.Font = Enum.Font.SourceSans
+TextLabel_27.Text = "AutoHit"
+TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.TextSize = 14.000
+TextLabel_27.TextStrokeTransparency = 0.000
+TextLabel_27.TextXAlignment = Enum.TextXAlignment.Left
+
+UIStroke_54.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_54.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_54.Thickness = 1.7999999523162842
+UIStroke_54.Parent = TextLabel_27
+
+WipButton_18.Name = "WipButton"
+WipButton_18.Parent = TextLabel_27
+WipButton_18.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WipButton_18.BorderColor3 = Color3.fromRGB(27, 42, 53)
+WipButton_18.Position = UDim2.new(0.897163093, 0, 0.259259254, 0)
+WipButton_18.Size = UDim2.new(0, 15, 0, 15)
+WipButton_18.Font = Enum.Font.SourceSans
+WipButton_18.Text = ""
+WipButton_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+WipButton_18.TextSize = 14.000
+
+UIStroke_55.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_55.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_55.Thickness = 1.399999976158142
+UIStroke_55.Parent = WipButton_18
+
+TextLabel_28.Parent = TabFrame3
+TextLabel_28.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_28.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_28.Position = UDim2.new(0.0138989585, 0, 0.818009913, 0)
+TextLabel_28.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_28.Font = Enum.Font.SourceSans
+TextLabel_28.Text = "AutoBoxingGloves"
+TextLabel_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.TextSize = 14.000
+TextLabel_28.TextStrokeTransparency = 0.000
+TextLabel_28.TextXAlignment = Enum.TextXAlignment.Left
+
+UIStroke_56.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_56.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_56.Thickness = 1.7999999523162842
+UIStroke_56.Parent = TextLabel_28
+
+WipButton_19.Name = "WipButton"
+WipButton_19.Parent = TextLabel_28
+WipButton_19.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WipButton_19.BorderColor3 = Color3.fromRGB(27, 42, 53)
+WipButton_19.Position = UDim2.new(0.897163093, 0, 0.259259254, 0)
+WipButton_19.Size = UDim2.new(0, 15, 0, 15)
+WipButton_19.Font = Enum.Font.SourceSans
+WipButton_19.Text = ""
+WipButton_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+WipButton_19.TextSize = 14.000
+
+UIStroke_57.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_57.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_57.Thickness = 1.399999976158142
+UIStroke_57.Parent = WipButton_19
+
+TextLabel_29.Parent = TabFrame3
+TextLabel_29.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_29.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_29.Position = UDim2.new(0.00932943914, 0, 0.657592058, 0)
+TextLabel_29.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_29.Font = Enum.Font.SourceSans
+TextLabel_29.Text = ""
+TextLabel_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.TextSize = 14.000
+TextLabel_29.TextStrokeTransparency = 0.000
+TextLabel_29.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_30.Parent = TextLabel_29
+TextLabel_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.BackgroundTransparency = 1.000
+TextLabel_30.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_30.Position = UDim2.new(0.00709219836, 0, -0.00925925933, 0)
+TextLabel_30.Size = UDim2.new(0, 72, 0, 27)
+TextLabel_30.Font = Enum.Font.SourceSans
+TextLabel_30.Text = "FasterHitAura"
+TextLabel_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.TextSize = 14.000
+TextLabel_30.TextStrokeTransparency = 0.000
+TextLabel_30.TextXAlignment = Enum.TextXAlignment.Left
+
+UIStroke_58.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_58.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_58.Thickness = 1.7999999523162842
+UIStroke_58.Parent = TextLabel_29
+
+WipButton_20.Name = "WipButton"
+WipButton_20.Parent = TextLabel_29
+WipButton_20.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WipButton_20.BorderColor3 = Color3.fromRGB(27, 42, 53)
+WipButton_20.Position = UDim2.new(0.90780133, 0, 0.233796299, 0)
+WipButton_20.Size = UDim2.new(0, 15, 0, 15)
+WipButton_20.Font = Enum.Font.SourceSans
+WipButton_20.Text = ""
+WipButton_20.TextColor3 = Color3.fromRGB(0, 0, 0)
+WipButton_20.TextSize = 14.000
+
+UIStroke_59.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_59.Color = Color3.fromRGB(84, 86, 86)
+UIStroke_59.Thickness = 1.399999976158142
+UIStroke_59.Parent = WipButton_20
+
+-- Scripts:
+
+local function TIBUE_fake_script() -- OutlastHubNormal.NotificationScript 
+	local script = Instance.new('LocalScript', OutlastHubNormal)
+
+	local StarterGui = game:GetService("StarterGui")
+	local plrs = game:GetService("Players")
+	local player = plrs.LocalPlayer
+	local j = script.Parent.Parent 
+	local f = j:WaitForChild("Outlast Hub") 
+	
+	local function sn(title, text, duration)
+		pcall(function()
+			StarterGui:SetCore("SendNotification", {
+				Title = title,
+				Text = text,
+				Duration = duration
+			})
+		end)
+	end
+	
+	f:GetPropertyChangedSignal("Enabled"):Connect(function()
+		if f.Enabled then
+			sn(
+				"Outlast Hub",
+				"Hello " .. player.Name .. "! Have fun with Outlast Hub.\n\nDon't forget to check the script rules. Do NOT inject this in normal mode—only legacy. If you injected in normal, leave now and join legacy to avoid anticheat bans.",
+				6
+			)
+		else
+			sn(
+				"Outlast Hub",
+				"Failed to load Outlast Hub.",
+				3
+			)
+		end
+	end)
+end
+coroutine.wrap(TIBUE_fake_script)()
+local function VAAA_fake_script() -- Toggle.LocalScript 
+	local script = Instance.new('LocalScript', Toggle)
+
+	local back = script.Parent.Parent.BackGround
+	local con = script.Parent.Parent.Container
+	
+	local window = {
+			count = 0;
+			toggles = {},
+			closed = false;
+		}
+	script.Parent.MouseButton1Click:connect(function()
+		wait(0.1)
+		window.closed = not window.closed
+			script.Parent.Text = (window.closed and "+" or "-")
+		if script.Parent.Text == "+" then
+				wait(0.1) do
+				con.Visible = false
+				back.Visible = false
+				end
+		else
+				wait(0.1) do
+				con.Visible = true
+				back.Visible = true
+				end
+				end
+			
+		end)
+	
+end
+coroutine.wrap(VAAA_fake_script)()
+local function KZFSP_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local dragger = {}
+	local resizer = {}
+	
+	local Players = game:GetService("Players")
+	local UIS = game:GetService("UserInputService")
+	local RunService = game:GetService("RunService")
+	
+	local player = Players.LocalPlayer
+	local mouse = player:GetMouse()
+	
+	-- =========================
+	-- DRAGGER
+	-- =========================
+	function dragger.new(frame)
+		local dragging = false
+		local dragInput
+		local startPos
+		local startFramePos
+	
+		frame.Active = true
+	
+		frame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = true
+				startPos = input.Position
+				startFramePos = frame.Position
+	
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragging = false
+					end
+				end)
+			end
+		end)
+	
+		frame.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement then
+				dragInput = input
+			end
+		end)
+	
+		RunService.Heartbeat:Connect(function()
+			if dragging and dragInput then
+				local delta = dragInput.Position - startPos
+	
+				frame.Position = UDim2.new(
+					startFramePos.X.Scale,
+					startFramePos.X.Offset + delta.X,
+					startFramePos.Y.Scale,
+					startFramePos.Y.Offset + delta.Y
+				)
+			end
+		end)
+	end
+	
+	-- =========================
+	-- RESIZER
+	-- =========================
+	function resizer.new(parent, frame)
+		parent:GetPropertyChangedSignal("AbsoluteSize"):Connect(function()
+			frame.Size = UDim2.new(
+				frame.Size.X.Scale,
+				frame.Size.X.Offset,
+				frame.Size.Y.Scale,
+				parent.AbsoluteSize.Y
+			)
+		end)
+	end
+	
+	-- =========================
+	-- APPLY
+	-- =========================
+	local frame = script.Parent
+	
+	dragger.new(frame)
+	frame.Active = true
+	frame.Draggable = true -- disable old roblox drag (we use custom)
+end
+coroutine.wrap(KZFSP_fake_script)()
+local function HAHIKYX_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	
+	local LocalPlayer = Players.LocalPlayer
+	local button = script.Parent:FindFirstChild("WipButton")
+	
+	local Toggle = false
+	local antifling = false
+	local LastPosition = nil
+	local debounce = false
+	
+	local Tracked = {}
+	
+	local function TrackPlayer(player)
+		if player == LocalPlayer then return end
+	
+		local data = {
+			Character = nil,
+			Primary = nil
+		}
+		Tracked[player] = data
+	
+		local function CharacterAdded(char)
+			data.Character = char
+			data.Primary = char:WaitForChild("HumanoidRootPart", 5)
+		end
+	
+		if player.Character then
+			CharacterAdded(player.Character)
+		end
+		player.CharacterAdded:Connect(CharacterAdded)
+	end
+	
+	--// EXISTING + NEW PLAYERS
+	for _, p in ipairs(Players:GetPlayers()) do
+		TrackPlayer(p)
+	end
+	Players.PlayerAdded:Connect(TrackPlayer)
+	Players.PlayerRemoving:Connect(function(p)
+		Tracked[p] = nil
+	end)
+	
+	RunService.RenderStepped:Connect(function()
+		if not Toggle then return end
+	
+		for _, data in pairs(Tracked) do
+			local char = data.Character
+			local root = data.Primary
+	
+			if char and root and char:IsDescendantOf(workspace) then
+				if root.AssemblyAngularVelocity.Magnitude > 50
+					or root.AssemblyLinearVelocity.Magnitude > 100 then
+					for _, part in ipairs(char:GetDescendants()) do
+						if part:IsA("BasePart") then
+							part.CanCollide = false
+							part.AssemblyAngularVelocity = Vector3.zero
+							part.AssemblyLinearVelocity = Vector3.zero
+							part.CustomPhysicalProperties = PhysicalProperties.new(0,0,0)
+						end
+					end
+				end
+			end
+		end
+	
+		local char = LocalPlayer.Character
+		if not char or not char.PrimaryPart then return end
+		local primary = char.PrimaryPart
+	
+		local lv = primary.AssemblyLinearVelocity.Magnitude
+		local av = primary.AssemblyAngularVelocity.Magnitude
+	
+		if lv > 250 or av > 250 then
+			primary.AssemblyLinearVelocity = Vector3.zero
+			primary.AssemblyAngularVelocity = Vector3.zero
+			if LastPosition then
+				primary.CFrame = LastPosition
+			end
+		elseif lv < 50 and av < 50 then
+			LastPosition = primary.CFrame
+		end
+	end)
+	
+	button.MouseButton1Click:Connect(function()
+		if debounce then return end
+		debounce = true
+	
+		Toggle = not Toggle
+		antifling = Toggle
+	
+		button.BackgroundColor3 = Toggle
+			and Color3.fromRGB(51, 255, 47)
+			or Color3.fromRGB(255, 0, 0)
+	
+		task.delay(0.15, function()
+			debounce = false
+		end)
+	end)
+end
+coroutine.wrap(HAHIKYX_fake_script)()
+local function TGZJ_fake_script() -- TextLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_2)
+
+	local Players = game:GetService("Players")
+	local localPlayer = Players.LocalPlayer
+	local RunService = game:GetService("RunService")
+	local UserInputService = game:GetService("UserInputService")
+	
+	local toolName = "Fight"
+	local EquipToggle = false
+	local p = script.Parent
+	local button = p:FindFirstChild("WipButton")
+	
+	local function equipTool()
+		local character = localPlayer.Character or localPlayer.CharacterAdded:Wait()
+		if not character then return end
+	
+		local backpack = localPlayer:WaitForChild("Backpack")
+		local toolInstanceInBackpack = backpack:FindFirstChild(toolName)
+	
+		if toolInstanceInBackpack then
+			if not character:FindFirstChild(toolName) then
+				toolInstanceInBackpack.Parent = character
+			end
+		end
+	end
+	
+	local function unequipTool()
+		local character = localPlayer.Character or localPlayer.CharacterAdded:Wait()
+		if not character then return end
+	
+		local backpack = localPlayer:WaitForChild("Backpack")
+		local toolInstanceInCharacter = character:FindFirstChild(toolName)
+	
+		if toolInstanceInCharacter then
+			toolInstanceInCharacter.Parent = backpack
+		end
+	end
+	
+	local function toggleAutoEquip()
+		EquipToggle = not EquipToggle
+		button.BackgroundColor3 = EquipToggle and Color3.fromRGB(51, 255, 47) or Color3.fromRGB(255, 0, 0)
+	
+		if not EquipToggle then
+			unequipTool()
+		end
+	
+		UserInputService.MouseIconEnabled = true
+		localPlayer.MouseLock = false
+	end
+	
+	button.MouseButton1Click:Connect(toggleAutoEquip)
+	
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if gameProcessed then return end
+		if input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode == Enum.KeyCode.T then
+			toggleAutoEquip()
+		end
+	end)
+	
+	RunService.Heartbeat:Connect(function()
+		if EquipToggle then
+			equipTool()
+		end
+	end)
+end
+coroutine.wrap(TGZJ_fake_script)()
+local function AJMKH_fake_script() -- TextLabel_3.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_3)
+
+	local RunService = game:GetService("RunService")
+	local Players = game:GetService("Players")
+	
+	local LocalPlayer = Players.LocalPlayer
+	local Toggle = false
+	local connection
+	local click = script.Parent:FindFirstChild("WipButton")
+	local function getCharacter()
+		return LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+	end
+	
+	local function setNoclip()
+		local character = getCharacter()
+		for _, part in ipairs(character:GetDescendants()) do
+			if part:IsA("BasePart") and part.CanCollide ~= false then
+				part.CanCollide = false
+			end
+		end
+	end
+	
+	local function resetCollision()
+		local character = getCharacter()
+		for _, part in ipairs(character:GetDescendants()) do
+			if part:IsA("BasePart") then
+				part.CanCollide = true
+			end
+		end
+	end
+	
+	click.MouseButton1Click:Connect(function()
+		Toggle = not Toggle
+	
+		if Toggle then
+			click.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
+	
+			connection = RunService.Heartbeat:Connect(function()
+				pcall(setNoclip)
+			end)
+	
+		else
+			click.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+	
+			if connection then
+				connection:Disconnect()
+				connection = nil
+			end
+	
+			resetCollision()
+		end
+	end)
+end
+coroutine.wrap(AJMKH_fake_script)()
+local function FNAJHVF_fake_script() -- bSliderFrame.mainScript 
+	local script = Instance.new('LocalScript', bSliderFrame)
+
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local UIS = game:GetService("UserInputService")
+	local RunService = game:GetService("RunService")
+	
+	-- =========================
+	-- Slider Setup
+	-- =========================
+	local slider = script.Parent
+	local slideFrame = slider:WaitForChild("slideFrame")
+	local amountValue = slider:WaitForChild("amountValue")
+	
+	local MIN_VALUE = 0
+	local MAX_VALUE = 1
+	local currentValue = MIN_VALUE
+	local dragging = false
+	local wipEnabled = false -- will be toggled by button
+	
+	local function updateSlider(pos)
+		if not wipEnabled then return end
+	
+		-- Update slider UI
+		slideFrame:TweenSize(
+			UDim2.new(pos, 0, 1, 0),
+			Enum.EasingDirection.Out,
+			Enum.EasingStyle.Quad,
+			0.1,
+			true
+		)
+	
+		-- Update current value
+		currentValue = MIN_VALUE + (pos * (MAX_VALUE - MIN_VALUE))
+		currentValue = math.floor(currentValue * 100) / 100 -- round to 2 decimals
+		amountValue.Text = tostring(currentValue)
+	
+		-- Update global interval
+		_G.WeaveInterval = currentValue
+	end
+	
+	local function getInputPosition(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement 
+			or input.UserInputType == Enum.UserInputType.MouseButton1 
+			or input.UserInputType == Enum.UserInputType.Touch then
+			return input.Position.X
+		end
+	end
+	
+	-- =========================
+	-- Slider Input Handling
+	-- =========================
+	slider.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			local pos = math.clamp((getInputPosition(input) - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
+			updateSlider(pos)
+		end
+	end)
+	
+	slider.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = false
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if dragging and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+			local pos = math.clamp((getInputPosition(input) - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
+			updateSlider(pos)
+		end
+	end)
+	
+	-- =========================
+	-- Wip Button Setup
+	-- =========================
+	_G.WeaveEnabled = false
+	_G.WeaveInterval = currentValue
+	local parentRoot = slider.Parent.Parent
+	local wipButton = parentRoot:FindFirstChild("WipButton")
+	
+	if wipButton then
+		wipButton.MouseButton1Click:Connect(function()
+			wipEnabled = not wipEnabled
+			if wipEnabled then
+				_G.WeaveEnabled = true
+				wipButton.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
+			else
+				_G.WeaveEnabled = false
+				wipButton.BackgroundColor3 = Color3.fromRGB(255, 11, 0)
+			end
+		end)
+	end
+	
+	-- =========================
+	-- Remote Function
+	-- =========================
+	local function getRemote()
+		local char = LocalPlayer.Character
+		if not char then return end
+	
+		local core = char:FindFirstChild("Core")
+		if not core then return end
+	
+		local comm = core:FindFirstChild("Communicate")
+		if not comm then return end
+	
+		for _, v in pairs(comm:GetChildren()) do
+			if v:IsA("RemoteEvent") then
+				return v
+			end
+		end
+	end
+	
+	-- =========================
+	-- Animation Trigger Logic
+	-- =========================
+	local MAX_DISTANCE = 5 -- studs
+	local lastFireTimes = {} -- to track reaction cooldowns per player
+	
+	local function getHumanoidRootPart(player)
+		local char = player.Character
+		if char then
+			return char:FindFirstChild("HumanoidRootPart")
+		end
+	end
+	
+	local function isClose(player)
+		local localHRP = getHumanoidRootPart(LocalPlayer)
+		local otherHRP = getHumanoidRootPart(player)
+		if not localHRP or not otherHRP then return false end
+		return (localHRP.Position - otherHRP.Position).Magnitude <= MAX_DISTANCE
+	end
+	
+	local function onAnimationPlayed(player, track)
+		if not _G.WeaveEnabled then return end
+		if not isClose(player) then return end
+	
+		local now = os.clock()
+		local lastFire = lastFireTimes[player] or 0
+		local interval = math.max(0.01, _G.WeaveInterval) -- prevent zero interval
+	
+		if now - lastFire >= interval then
+			lastFireTimes[player] = now
+			local remote = getRemote()
+			if remote then
+				pcall(function()
+					remote:FireServer("Weave", nil, true)
+				end)
+			end
+		end
+	end
+	
+	local function monitorPlayer(player)
+		player.CharacterAdded:Connect(function(char)
+			task.wait(0.1)
+			local humanoid = char:FindFirstChildWhichIsA("Humanoid")
+			if not humanoid then return end
+			local animator = humanoid:FindFirstChildOfClass("Animator")
+			if not animator then return end
+	
+			animator.AnimationPlayed:Connect(function(track)
+				onAnimationPlayed(player, track)
+			end)
+		end)
+	
+		if player.Character then
+			local humanoid = player.Character:FindFirstChildWhichIsA("Humanoid")
+			if humanoid then
+				local animator = humanoid:FindFirstChildOfClass("Animator")
+				if animator then
+					animator.AnimationPlayed:Connect(function(track)
+						onAnimationPlayed(player, track)
+					end)
+				end
+			end
+		end
+	end
+	
+	-- Monitor existing players
+	for _, player in pairs(Players:GetPlayers()) do
+		if player ~= LocalPlayer then
+			monitorPlayer(player)
+		end
+	end
+	
+	-- Monitor new players
+	Players.PlayerAdded:Connect(function(player)
+		if player ~= LocalPlayer then
+			monitorPlayer(player)
+		end
+	end)
+end
+coroutine.wrap(FNAJHVF_fake_script)()
+local function MAUPW_fake_script() -- TextLabel_6.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_6)
+
+	local Players = game:GetService("Players")
+	local button = script.Parent:FindFirstChild("WipButton")
+	local LocalPlayer = Players.LocalPlayer
+	local mainGui = LocalPlayer:WaitForChild("PlayerGui"):WaitForChild("Main")
+	local notificationsFolder = mainGui:WaitForChild("Notifications")
+	
+	local Toggle = false
+	local debounce = false
+	
+	-- Button toggle logic
+	button.MouseButton1Click:Connect(function()
+		if debounce then return end
+		debounce = true
+	
+		Toggle = not Toggle
+	
+		button.BackgroundColor3 = Toggle
+			and Color3.fromRGB(51, 255, 47)
+			or Color3.fromRGB(255, 0, 0)
+	
+		task.delay(0.15, function()
+			debounce = false
+		end)
+	end)
+	
+	-- Function to destroy a notification cell if toggle is ON
+	local function DestroyCell(cell)
+		if cell:IsA("TextLabel") and Toggle then
+			cell:Destroy()
+		end
+	end
+	
+	-- Apply to existing children
+	for _, cell in pairs(notificationsFolder:GetChildren()) do
+		DestroyCell(cell)
+	end
+	
+	-- Watch for new children and destroy them immediately if toggle is ON
+	notificationsFolder.ChildAdded:Connect(function(child)
+		DestroyCell(child)
+	end)
+end
+coroutine.wrap(MAUPW_fake_script)()
+local function XWJQVAQ_fake_script() -- bSliderFrame_2.mainScript 
+	local script = Instance.new('LocalScript', bSliderFrame_2)
+
+	local Players = game:GetService("Players")
+	local UIS = game:GetService("UserInputService")
+	
+	local player = Players.LocalPlayer
+	
+	local slider = script.Parent
+	local slideFrame = slider:WaitForChild("slideFrame")
+	local amountValue = slider:WaitForChild("amountValue")
+	
+	local character, humanoid
+	local enabled = false -- button toggle
+	local dragging = false
+	local spacePressed = false
+	
+	local MIN_SPEED = 9
+	local MAX_SPEED = 100
+	local currentSpeed = MIN_SPEED
+	
+	local parentRoot = slider.Parent.Parent
+	local wipButton = parentRoot:FindFirstChild("WipButton")
+	
+	-- Update character references
+	local function updateCharacter(char)
+		character = char
+		humanoid = char:WaitForChild("Humanoid")
+	end
+	
+	player.CharacterAdded:Connect(updateCharacter)
+	if player.Character then
+		updateCharacter(player.Character)
+	end
+	
+	-- Update slider UI and WalkSpeed value
+	local function updateSlider(pos)
+		slideFrame:TweenSize(
+			UDim2.new(pos, 0, 1, 0),
+			Enum.EasingDirection.Out,
+			Enum.EasingStyle.Quad,
+			0.1,
+			true
+		)
+	
+		currentSpeed = MIN_SPEED + (MAX_SPEED - MIN_SPEED) * pos
+		amountValue.Text = string.format("%.0f", currentSpeed)
+	end
+	
+	-- Helper to get input position for touch/mouse
+	local function getInputPosition(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement
+			or input.UserInputType == Enum.UserInputType.MouseButton1
+			or input.UserInputType == Enum.UserInputType.Touch then
+			return input.Position.X
+		end
+	end
+	
+	-- Slider input
+	slider.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			local pos = math.clamp((getInputPosition(input) - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
+			updateSlider(pos)
+		end
+	end)
+	
+	slider.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = false
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if dragging then
+			local pos = math.clamp((getInputPosition(input) - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
+			updateSlider(pos)
+		end
+	end)
+	
+	local function fightyyy()
+		if character then
+			local tool = character:FindFirstChildOfClass("Tool")
+			if tool and tool.Name == "Fight" then 
+				return true
+			end
+		end
+		return false
+	end
+	
+	-- Space key press/release
+	UIS.InputBegan:Connect(function(input, gameProcessed)
+		if gameProcessed then return end
+		if input.KeyCode == Enum.KeyCode.Space and enabled then
+			spacePressed = true
+			if humanoid and fightyyy() then
+				humanoid.WalkSpeed = currentSpeed
+			end
+		end
+	end)
+	
+	UIS.InputEnded:Connect(function(input)
+		if input.KeyCode == Enum.KeyCode.Space then
+			spacePressed = false
+			if humanoid then
+				humanoid.WalkSpeed = MIN_SPEED
+			end
+		end
+	end)
+	
+	-- Loop to continuously apply WalkSpeed
+	task.spawn(function()
+		while true do
+			task.wait()
+			if enabled and spacePressed and humanoid and fightyyy() then
+				humanoid.WalkSpeed = currentSpeed
+			elseif humanoid then
+				humanoid.WalkSpeed = MIN_SPEED
+			end
+		end
+	end)
+	
+	-- Button toggle
+	if wipButton then
+		wipButton.MouseButton1Click:Connect(function()
+			enabled = not enabled
+			if enabled then
+				wipButton.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
+			else
+				wipButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+				spacePressed = false
+				if humanoid then
+					humanoid.WalkSpeed = MIN_SPEED
+				end
+			end
+		end)
+	end
+	
+	-- Initialize slider display
+	local initialPos = (currentSpeed - MIN_SPEED) / (MAX_SPEED - MIN_SPEED)
+	updateSlider(initialPos)
+end
+coroutine.wrap(XWJQVAQ_fake_script)()
+local function UJTIV_fake_script() -- bSliderFrame_3.mainScript 
+	local script = Instance.new('LocalScript', bSliderFrame_3)
+
+	local Players = game:GetService("Players")
+	local UIS = game:GetService("UserInputService")
+	
+	local player = Players.LocalPlayer
+	local mouse = player:GetMouse()
+	
+	local slider = script.Parent
+	local slideFrame = slider:WaitForChild("slideFrame")
+	local amountValue = slider:WaitForChild("amountValue")
+	
+	local character, humanoid
+	local currentSpeed = 9 -- starting slider value
+	local enabled = false
+	
+	local parentRoot = slider.Parent.Parent
+	local wipButton = parentRoot:FindFirstChild("WipButton")
+	
+	-- Update character reference
+	local function updateCharacter(char)
+		character = char
+		humanoid = char:WaitForChild("Humanoid")
+		-- Do NOT set any default speed here
+	end
+	
+	player.CharacterAdded:Connect(updateCharacter)
+	if player.Character then
+		updateCharacter(player.Character)
+	end
+	
+	local dragging = false
+	
+	-- Update slider UI and humanoid speed only if enabled
+	local function updateSlider(pos)
+		-- Update slider UI
+		slideFrame:TweenSize(
+			UDim2.new(pos, 0, 1, 0),
+			Enum.EasingDirection.Out,
+			Enum.EasingStyle.Quad,
+			0.1,
+			true
+		)
+	
+		-- Calculate speed from slider (0–100)
+		currentSpeed = pos * 100
+	
+		-- Only apply speed if toggle is enabled
+		if enabled and humanoid then
+			humanoid.WalkSpeed = currentSpeed
+		end
+	
+		-- Always update displayed value
+		amountValue.Text = tostring(math.floor(currentSpeed))
+	end
+	
+	-- Initialize slider to currentSpeed
+	updateSlider(currentSpeed / 100)
+	
+	-- Convert input position to slider value
+	local function updateSliderFromInput(input)
+		local inputPos
+		if input.UserInputType == Enum.UserInputType.MouseMovement 
+			or input.UserInputType == Enum.UserInputType.Touch 
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+			inputPos = input.Position.X
+		else
+			return
+		end
+	
+		local pos = math.clamp((inputPos - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
+		updateSlider(pos)
+	end
+	
+	-- Input began (mouse or touch)
+	slider.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			updateSliderFromInput(input)
+		end
+	end)
+	
+	-- Input ended
+	slider.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = false
+		end
+	end)
+	
+	-- Input changed (drag)
+	UIS.InputChanged:Connect(function(input)
+		if dragging then
+			updateSliderFromInput(input)
+		end
+	end)
+	
+	-- Loop to enforce speed while enabled
+	local function startSpeedLoop()
+		coroutine.wrap(function()
+			while enabled do
+				if humanoid then
+					humanoid.WalkSpeed = currentSpeed
+				end
+				task.wait(0.05)
+			end
+		end)()
+	end
+	
+	-- Toggle button logic
+	if wipButton then
+		wipButton.MouseButton1Click:Connect(function()
+			enabled = not enabled
+	
+			if enabled then
+				wipButton.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
+				startSpeedLoop()
+			else
+				wipButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+				-- When disabled, do NOT modify humanoid WalkSpeed
+			end
+		end)
+	end
+	
+	-- Display initial slider value
+	amountValue.Text = tostring(currentSpeed)
+end
+coroutine.wrap(UJTIV_fake_script)()
+local function QWDGFPZ_fake_script() -- TextLabel_11.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_11)
+
+	local Players = game:GetService("Players")
+	local lp = Players.LocalPlayer
+	local Toggle = false
+	local Parent = script.Parent
+	local antiFallEnabled = false
+	local wbp = Parent:FindFirstChild("WipButton")
+	local function onCharacterAdded(character)
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+		if humanoid then
+			humanoid.StateChanged:Connect(function(oldState, newState)
+				if antiFallEnabled and newState == Enum.HumanoidStateType.FallingDown then
+					humanoid:ChangeState(Enum.HumanoidStateType.GettingUp)
+				end
+			end)
+		end
+	end
+	
+	lp.CharacterAdded:Connect(onCharacterAdded)
+	
+	if lp.Character then
+		onCharacterAdded(lp.Character)
+	end
+	
+	wbp.MouseButton1Click:connect(function()
+		if not Toggle then
+			Toggle = true
+			if Toggle == true then 
+				antiFallEnabled = true
+			end
+			wbp.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
+		elseif Toggle then
+			Toggle = false
+			if Toggle == false then
+				antiFallEnabled = false
+			end
+			wbp.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		end
+	end)
+	
+	
+end
+coroutine.wrap(QWDGFPZ_fake_script)()
+local function UQDYNVZ_fake_script() -- Tab1Button.LocalScript 
+	local script = Instance.new('LocalScript', Tab1Button)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.TabFrame1.Visible = true
+		script.Parent.Parent.Tab1Button.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		script.Parent.Parent.Tab2Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab3Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab4Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.TabFrame2.Visible = false
+		script.Parent.Parent.TabFrame3.Visible = false
+		script.Parent.Parent.TabFrame4.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(UQDYNVZ_fake_script)()
+local function GIMJZU_fake_script() -- Tab2Button.LocalScript 
+	local script = Instance.new('LocalScript', Tab2Button)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.TabFrame1.Visible = false
+		script.Parent.Parent.TabFrame4.Visible = false
+		script.Parent.Parent.TabFrame3.Visible = false
+		script.Parent.Parent.Tab1Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab2Button.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		script.Parent.Parent.Tab3Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab4Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.TabFrame2.Visible = true
+		wait(0.1)
+	end)
+end
+coroutine.wrap(GIMJZU_fake_script)()
+local function HJJVNXA_fake_script() -- Tab4Button.LocalScript 
+	local script = Instance.new('LocalScript', Tab4Button)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.TabFrame1.Visible = false
+		script.Parent.Parent.TabFrame2.Visible = false
+		script.Parent.Parent.TabFrame3.Visible = false
+		script.Parent.Parent.TabFrame4.Visible = true
+		script.Parent.Parent.Tab1Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab2Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab3Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab4Button.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		wait(0.1)
+	end)
+end
+coroutine.wrap(HJJVNXA_fake_script)()
+local function QUVS_fake_script() -- bSliderFrame_4.mainScript 
+	local script = Instance.new('LocalScript', bSliderFrame_4)
+
+	local UIS = game:GetService("UserInputService")
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local mouse = LocalPlayer:GetMouse()
+	
+	-- =========================
+	-- UI
+	-- =========================
+	local slider = script.Parent
+	local slideFrame = slider:WaitForChild("slideFrame")
+	local amountValue = slider:WaitForChild("amountValue")
+	
+	local parentRoot = slider.Parent.Parent
+	local wipButton = parentRoot:FindFirstChild("WipButton")
+	
+	-- =========================
+	-- SETTINGS
+	-- =========================
+	local MIN_DELAY = 0.2
+	local MAX_DELAY = 1
+	local attackDelay = 0.4
+	
+	local dragging = false
+	local wipEnabled = false
+	
+	-- =========================
+	-- SLIDER HELPER
+	-- =========================
+	local function updateSlider(pos)
+		slideFrame:TweenSize(
+			UDim2.new(pos, 0, 1, 0),
+			Enum.EasingDirection.Out,
+			Enum.EasingStyle.Quad,
+			0.1,
+			true
+		)
+	
+		local delay = MIN_DELAY + (pos * (MAX_DELAY - MIN_DELAY))
+		delay = math.floor(delay * 100) / 100
+	
+		amountValue.Text = tostring(delay)
+		attackDelay = delay -- sync attackDelay dynamically
+	end
+	
+	-- Initialize slider and attackDelay from current UI
+	local initialPos = ((tonumber(amountValue.Text) or MIN_DELAY) - MIN_DELAY) / (MAX_DELAY - MIN_DELAY)
+	updateSlider(initialPos)
+	
+	-- =========================
+	-- SLIDER INPUT (PC + Mobile)
+	-- =========================
+	local function updateSliderFromInput(input)
+		local inputPos
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			inputPos = input.Position.X
+		else
+			return
+		end
+	
+		local pos = math.clamp((inputPos - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
+		updateSlider(pos)
+	end
+	
+	slider.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			updateSliderFromInput(input)
+		end
+	end)
+	
+	slider.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = false
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if dragging then
+			updateSliderFromInput(input)
+		end
+	end)
+	if wipButton then
+		wipButton.MouseButton1Down:Connect(function()
+			wipEnabled = not wipEnabled
+	
+			if wipEnabled then
+				wipButton.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
+			else
+				wipButton.BackgroundColor3 = Color3.fromRGB(255, 11, 0)
+			end
+		end)
+	end
+end
+coroutine.wrap(QUVS_fake_script)()
+local function DHZOM_fake_script() -- bSliderFrame_5.mainScript 
+	local script = Instance.new('LocalScript', bSliderFrame_5)
+
+	local Players = game:GetService("Players")
+	local UIS = game:GetService("UserInputService")
+	
+	local LocalPlayer = Players.LocalPlayer
+	local mouse = LocalPlayer:GetMouse()
+	
+	-- =========================
+	-- UI
+	-- =========================
+	local slider = script.Parent
+	local slideFrame = slider:WaitForChild("slideFrame")
+	local amountValue = slider:WaitForChild("amountValue")
+	
+	local parentRoot = slider.Parent.Parent
+	local wipButton = parentRoot:FindFirstChild("WipButton")
+	
+	-- =========================
+	-- SETTINGS
+	-- =========================
+	local MIN_DELAY = 0.2
+	local MAX_DELAY = 1
+	local attackDelay = 0.4
+	
+	local attacking = false
+	local wipEnabled = false
+	
+	-- hand switching
+	local currentHand = "RightHand"
+	
+	-- =========================
+	-- REMOTE
+	-- =========================
+	local function getRemote()
+		local char = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+		return char:WaitForChild("Core"):WaitForChild("Communicate"):FindFirstChildWhichIsA("RemoteEvent")
+	end
+	
+	-- =========================
+	-- TARGET
+	-- =========================
+	local function getClosest()
+		local char = LocalPlayer.Character
+		if not char then return end
+	
+		local hrp = char:FindFirstChild("HumanoidRootPart")
+		if not hrp then return end
+	
+		local closest, dist = nil, math.huge
+	
+		for _, plr in pairs(Players:GetPlayers()) do
+			if plr ~= LocalPlayer and plr.Character then
+				local targetHRP = plr.Character:FindFirstChild("HumanoidRootPart")
+				local hum = plr.Character:FindFirstChildWhichIsA("Humanoid")
+	
+				if targetHRP and hum and hum.Health > 0 then
+					local d = (hrp.Position - targetHRP.Position).Magnitude
+					if d < dist then
+						dist = d
+						closest = plr
+					end
+				end
+			end
+		end
+	
+		return closest
+	end
+	
+	-- =========================
+	-- SHOVE WITH HAND SWITCH
+	-- =========================
+	local function shove()
+		local remote = getRemote()
+		if not remote then return end
+	
+		local target = getClosest()
+		if not target or not target.Character then return end
+	
+		local tChar = target.Character
+		local hrp = tChar:FindFirstChild("HumanoidRootPart")
+		if not hrp then return end
+	
+		local args = {
+			"Shove",
+			{
+				Character = tChar,
+				Point = hrp.Position,
+				Hit = hrp,
+				Limb = currentHand, 
+				Classs = "{356BE0E2-14EC-4989-8BBE-5F2C26244679}",
+				Result = nil
+			}
+		}
+	
+		remote:FireServer(unpack(args))
+	
+		-- switch hands every hit
+		currentHand = (currentHand == "RightHand") and "LeftHand" or "RightHand"
+	end
+	
+	-- =========================
+	-- LOOP
+	-- =========================
+	local function startLoop()
+		if attacking then return end
+		attacking = true
+	
+		task.spawn(function()
+			while attacking do
+				shove()
+				task.wait(attackDelay)
+			end
+		end)
+	end
+	
+	local function stopLoop()
+		attacking = false
+	end
+	
+	-- =========================
+	-- SLIDER (delay control)
+	-- =========================
+	local dragging = false
+	
+	-- =========================
+	-- SLIDER HELPER
+	-- =========================
+	local function updateSlider(pos)
+		slideFrame:TweenSize(
+			UDim2.new(pos, 0, 1, 0),
+			Enum.EasingDirection.Out,
+			Enum.EasingStyle.Quad,
+			0.1,
+			true
+		)
+	
+		local delay = MIN_DELAY + (pos * (MAX_DELAY - MIN_DELAY))
+		delay = math.floor(delay * 100) / 100
+	
+		amountValue.Text = tostring(delay)
+		attackDelay = delay -- sync attackDelay dynamically
+	end
+	
+	-- Initialize slider and attackDelay from current UI
+	local initialPos = ((tonumber(amountValue.Text) or MIN_DELAY) - MIN_DELAY) / (MAX_DELAY - MIN_DELAY)
+	updateSlider(initialPos)
+	
+	-- =========================
+	-- SLIDER INPUT (PC + Mobile)
+	-- =========================
+	local function updateSliderFromInput(input)
+		local inputPos
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			inputPos = input.Position.X
+		else
+			return
+		end
+	
+		local pos = math.clamp((inputPos - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
+		updateSlider(pos)
+	end
+	
+	slider.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			updateSliderFromInput(input)
+		end
+	end)
+	
+	slider.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = false
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if dragging then
+			updateSliderFromInput(input)
+		end
+	end)
+	
+	if wipButton then
+		wipButton.MouseButton1Down:Connect(function()
+			wipEnabled = not wipEnabled
+	
+			if wipEnabled then
+				wipButton.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
+				startLoop()
+			else
+				wipButton.BackgroundColor3 = Color3.fromRGB(255, 11, 0)
+				stopLoop()
+			end
+		end)
+	end
+end
+coroutine.wrap(DHZOM_fake_script)()
+local function ZFMEWQV_fake_script() -- AutoBuy.LocalScript 
+	local script = Instance.new('LocalScript', AutoBuy)
+
+	local Players = game:GetService("Players")
+	local lp = Players.LocalPlayer
+	local Toggle = false
+	local Parent = script.Parent
+	local antiFallEnabled = false
+	local wbp = Parent:FindFirstChild("WipButton")
+	local function onCharacterAdded(character)
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+		if humanoid then
+			humanoid.StateChanged:Connect(function(oldState, newState)
+				if antiFallEnabled and newState == Enum.HumanoidStateType.FallingDown then
+					humanoid:ChangeState(Enum.HumanoidStateType.GettingUp)
+				end
+			end)
+		end
+	end
+	
+	lp.CharacterAdded:Connect(onCharacterAdded)
+	
+	if lp.Character then
+		onCharacterAdded(lp.Character)
+	end
+	
+	wbp.MouseButton1Click:connect(function()
+		if not Toggle then
+			Toggle = true
+			if Toggle == true then 
+				antiFallEnabled = true
+			end
+			wbp.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
+		elseif Toggle then
+			Toggle = false
+			if Toggle == false then
+				antiFallEnabled = false
+			end
+			wbp.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		end
+	end)
+	
+	
+end
+coroutine.wrap(ZFMEWQV_fake_script)()
+local function VFUMD_fake_script() -- Rejoin.LocalScript 
+	local script = Instance.new('LocalScript', Rejoin)
+
+	local button = script.Parent
+	local TeleportService = game:GetService("TeleportService")
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	
+	local debounce = false
+	
+	button.MouseButton1Click:Connect(function()
+		if debounce then return end
+		debounce = true
+		if not game:IsLoaded() then
+			game.Loaded:Wait()
+		end
+	
+		local success, err = pcall(function()
+			TeleportService:TeleportToPlaceInstance(game.PlaceId, game.JobId, LocalPlayer)
+		end)
+	
+		if not success then
+			warn("Failed to rejoin server:", err)
+		end
+	
+		task.delay(1, function()
+			debounce = false
+		end)
+	end)
+	
+end
+coroutine.wrap(VFUMD_fake_script)()
+local function DHYEZSV_fake_script() -- TextLabel_16.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_16)
+
+	local Toggle = false
+	local VirtualUser = game:GetService("VirtualUser")
+	local Players = game:GetService("Players")
+	local button = script.Parent:FindFirstChild("WipButton")
+	local function handleAntiAFK()
+		if Toggle then
+			VirtualUser:CaptureController()
+			VirtualUser:ClickButton2(Vector2.new())
+		end
+	end
+	
+	Players.LocalPlayer.Idled:Connect(function()
+		handleAntiAFK()
+	end)
+	
+	local function toggleAntiAFK()
+		Toggle = not Toggle
+	
+		if Toggle then
+			button.BackgroundColor3 = Color3.fromRGB(51, 255, 47) 
+		else
+			button.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		end
+	end
+	
+	button.MouseButton1Click:Connect(toggleAntiAFK)
+	
+end
+coroutine.wrap(DHYEZSV_fake_script)()
+local function LXUEUJV_fake_script() -- TextLabel_17.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_17)
+
+	local Toggle = false
+	local Players = game:GetService("Players")
+	local button = script.Parent:FindFirstChild("WipButton")
+	local Workspace = game:GetService("Workspace")
+	
+	local function toggleAntiVoid()
+		Toggle = not Toggle
+	
+		if Toggle then
+			button.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
+			workspace.FallenPartsDestroyHeight = 0/1/0
+		else
+			button.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+			Workspace.FallenPartsDestroyHeight = -500 -- optional default
+		end
+	end
+	
+	button.MouseButton1Click:Connect(toggleAntiVoid)
+end
+coroutine.wrap(LXUEUJV_fake_script)()
+local function NKLD_fake_script() -- Tab3Button.LocalScript 
+	local script = Instance.new('LocalScript', Tab3Button)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.TabFrame1.Visible = false
+		script.Parent.Parent.TabFrame2.Visible = false
+		script.Parent.Parent.TabFrame3.Visible = true
+		script.Parent.Parent.Tab1Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab2Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab3Button.BackgroundColor3 = Color3.fromRGB(48, 48,48)
+		script.Parent.Parent.Tab4Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.TabFrame4.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(NKLD_fake_script)()
+local function YRYHUKT_fake_script() -- TargetHit.LocalScript 
+	local script = Instance.new('LocalScript', TargetHit)
+
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	local UIS = game:GetService("UserInputService")
+	
+	local player = Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:FindFirstChildOfClass("Humanoid") or character:WaitForChild("Humanoid")
+	
+	-- UI
+	local parentRoot = script.Parent
+	local textBox = parentRoot:FindFirstChild("TargetBox")
+	local wipButton = parentRoot:FindFirstChild("WipButton")
+	
+	-- Config
+	local attackDelay = 0.33
+	local MAX_DISTANCE = 10000
+	local PREDICTION_FACTOR = 1
+	local hitPartsList = { "Head" }
+	
+	-- State
+	local attacking = false
+	local currentHand = "RightHand"
+	local wipEnabled = false
+	local currentTarget = nil
+	local currentClass = nil
+	
+	-- Animation-Based Class Detection
+	local stylesFolder = character:WaitForChild("Core"):WaitForChild("Animations"):WaitForChild("Styles")
+	local animationClassMap = {}
+	
+	local function getIdNumber(animation)
+		if not animation or not animation.AnimationId then return nil end
+		local id = animation.AnimationId:match("%d+")
+		return id and tonumber(id)
+	end
+	
+	local function scanStyles(folder, className)
+		for _, child in pairs(folder:GetChildren()) do
+			if child:IsA("Animation") then
+				local id = getIdNumber(child)
+				if id then
+					animationClassMap[id] = className
+				end
+			elseif child:IsA("Folder") then
+				scanStyles(child, className)
+			end
+		end
+	end
+	
+	for _, classFolder in pairs(stylesFolder:GetChildren()) do
+		if classFolder:IsA("Folder") then
+			scanStyles(classFolder, classFolder.Name)
+		end
+	end
+	
+	-- Class Checker (Always Updates)
+	local function updateCurrentClass()
+		if not humanoid then return end
+		local animator = humanoid:FindFirstChildOfClass("Animator")
+		if not animator then
+			currentClass = nil
+			return
+		end
+		for _, track in pairs(animator:GetPlayingAnimationTracks()) do
+			local id = getIdNumber(track.Animation)
+			local className = id and animationClassMap[id]
+			if className then
+				currentClass = className
+				return
+			end
+		end
+		currentClass = nil
+	end
+	
+	-- Target Utilities
+	local ignoreIDs = {
+		[10712947750] = true,
+	}
+	
+	local function getTargetsFromText(text)
+		if not text or text == "" then return {} end
+		local targets = {}
+		local used = {}
+		for name in string.gmatch(text, "([^,]+)") do
+			name = name:lower():gsub("^%s+", ""):gsub("%s+$", "")
+			for _, plr in ipairs(Players:GetPlayers()) do
+				if plr ~= player and not ignoreIDs[plr.UserId] and not used[plr.UserId] then
+					local uname = plr.Name:lower()
+					local dname = plr.DisplayName:lower()
+					if uname:sub(1, #name) == name or dname:sub(1, #name) == name then
+						targets[#targets + 1] = plr
+						used[plr.UserId] = true
+						break
+					end
+				end
+			end
+		end
+		return targets
+	end
+	
+	local function getClosest()
+		if currentTarget and currentTarget.Character then
+			local humanoid = currentTarget.Character:FindFirstChildOfClass("Humanoid")
+			local targetHRP = currentTarget.Character:FindFirstChild("HumanoidRootPart")
+			if humanoid and humanoid.Health > 0 and targetHRP then
+				return currentTarget
+			end
+		end
+	
+		local targets = getTargetsFromText(textBox.Text)
+		currentTarget = nil
+		for _, plr in ipairs(targets) do
+			if plr.Character then
+				local humanoid = plr.Character:FindFirstChildOfClass("Humanoid")
+				if humanoid and humanoid.Health > 0 then
+					currentTarget = plr
+					break
+				end
+			end
+		end
+		return currentTarget
+	end
+	
+	-- Attack Utilities
+	local function getRemote()
+		local core = character and character:FindFirstChild("Core")
+		local comm = core and core:FindFirstChild("Communicate")
+		if not comm then return nil end
+		for _, v in pairs(comm:GetChildren()) do
+			if v:IsA("RemoteEvent") then
+				return v
+			end
+		end
+	end
+	
+	local function predictPosition(hrp)
+		return hrp.Position + (hrp.Velocity * attackDelay * PREDICTION_FACTOR)
+	end
+	
+	local function stabilizeCharacter(hrp)
+		if not hrp then return end
+		hrp.Velocity = Vector3.new(0,0,0)
+		hrp.AssemblyLinearVelocity = Vector3.new(0,0,0)
+		hrp.AssemblyAngularVelocity = Vector3.new(0,0,0)
+		if hrp.Position.Y > 10 then
+			hrp.CFrame = CFrame.new(hrp.Position.X, 10, hrp.Position.Z)
+		end
+	end
+	
+	local function attack()
+		updateCurrentClass()
+		if not currentClass then return end -- skip if no animation detected
+	
+		local remote = getRemote()
+		if not remote then return end
+	
+		local target = getClosest()
+		if not target or not target.Character then return end
+		local tChar = target.Character
+		local hrp = tChar:FindFirstChild("HumanoidRootPart")
+		if not hrp then return end
+	
+		local offHand = (currentHand == "RightHand") and "LeftHand" or "RightHand"
+	
+		for _, partName in pairs(hitPartsList) do
+			local hitPart = tChar:FindFirstChild(partName) or hrp
+			local args = {
+				"Heavy",
+				{
+					Point = predictPosition(hrp),
+					Combo = 5,
+					Class = currentClass,
+					IsKnockdown = false,
+					Character = tChar,
+					Hit = hitPart,
+					Limb = currentHand,
+					Result = nil
+				},
+				false
+			}
+			remote:FireServer(unpack(args))
+			remote:FireServer("Swing", {Limb = currentHand})
+			remote:FireServer("Swing", {Limb = offHand})
+			currentHand = offHand
+		end
+	end
+	
+	-- Movement Loop
+	local moveConnection
+	local function startMovementLoop()
+		if moveConnection then return end
+		moveConnection = RunService.Heartbeat:Connect(function()
+			if not attacking then return end
+			local myHRP = character and character:FindFirstChild("HumanoidRootPart")
+			local target = getClosest()
+			if myHRP and target and target.Character then
+				local tHRP = target.Character:FindFirstChild("HumanoidRootPart")
+				if tHRP then
+					stabilizeCharacter(myHRP)
+					myHRP.CFrame = CFrame.new(predictPosition(tHRP) + Vector3.new(0,0,-2))
+				end
+			end
+		end)
+	end
+	
+	local function stopMovementLoop()
+		if moveConnection then
+			moveConnection:Disconnect()
+			moveConnection = nil
+		end
+	end
+	
+	-- Attack Loop
+	local function startLoop()
+		if attacking then return end
+		attacking = true
+		startMovementLoop()
+		task.spawn(function()
+			while attacking do
+				local target = getClosest()
+				if target and target.Character then
+					local humanoid = target.Character:FindFirstChildOfClass("Humanoid")
+					if humanoid and humanoid.Health > 0 then
+						attack()
+					end
+				end
+				task.wait(attackDelay)
+			end
+		end)
+	end
+	
+	local function stopLoop()
+		attacking = false
+		currentTarget = nil
+		stopMovementLoop()
+	end
+	
+	-- WIP Button
+	if wipButton and wipButton:IsA("GuiButton") then
+		wipButton.MouseButton1Down:Connect(function()
+			wipEnabled = not wipEnabled
+			if wipEnabled then
+				wipButton.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
+				startLoop()
+			else
+				wipButton.BackgroundColor3 = Color3.fromRGB(255, 11, 0)
+				stopLoop()
+			end
+		end)
+	end
+	
+	-- Respawn handling
+	player.CharacterAdded:Connect(function(char)
+		character = char
+		humanoid = character:WaitForChild("Humanoid")
+		if wipEnabled then
+			startLoop()
+		end
+	end)
+end
+coroutine.wrap(YRYHUKT_fake_script)()
+local function KWVI_fake_script() -- TextLabel_18.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_18)
+
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local gui = script.Parent
+	
+	local padPositions = {
+		Pad1 = Vector3.new(-189, 5, -172),
+		Pad2 = Vector3.new(-184, 5, -167),
+	}
+	
+	-- Cache buttons
+	local buttons = {
+		Pad1 = gui:WaitForChild("Pad1"),
+		Pad2 = gui:WaitForChild("Pad2"),
+		AutoReset = gui:WaitForChild("AutoReset")
+	}
+	
+	-- Setup buttons
+	for name, button in pairs(buttons) do
+		if button:GetAttribute("Active") == nil then
+			button:SetAttribute("Active", false)
+		end
+	
+		button.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+	
+		button.MouseButton1Click:Connect(function()
+			local active = not button:GetAttribute("Active")
+			button:SetAttribute("Active", active)
+			button.BackgroundColor3 = active and Color3.fromRGB(51, 255, 47) or Color3.fromRGB(255, 0, 0)
+		end)
+	end
+	
+	-- Get active pad
+	local function getActivePadPosition()
+		for padName, pos in pairs(padPositions) do
+			local button = buttons[padName]
+			if button and button:GetAttribute("Active") then
+				return pos
+			end
+		end
+		return nil
+	end
+	
+	-- Teleport loop
+	local function teleportLoop(char)
+		local hrp = char:WaitForChild("HumanoidRootPart")
+	
+		while char.Parent do
+			task.wait()
+			local targetPos = getActivePadPosition()
+			if targetPos then
+				hrp.CFrame = CFrame.new(targetPos)
+			end
+		end
+	end
+	
+	-- Auto-reset loop
+	local function autoResetLoop(char)
+		local humanoid = char:WaitForChild("Humanoid")
+		local playerFolder = workspace:WaitForChild("Live"):WaitForChild(player.Name)
+		local pvpValue = playerFolder:WaitForChild("PVP")
+	
+		while humanoid.Parent do
+			local button = buttons.AutoReset
+	
+			if button:GetAttribute("Active") and pvpValue.Value then
+				task.wait(0.8)
+				humanoid.Health = 0
+			else
+				task.wait(1)
+			end
+		end
+	end
+	
+	-- Character added
+	local function onCharacter(char)
+		task.spawn(function()
+			teleportLoop(char)
+		end)
+	
+		task.spawn(function()
+			autoResetLoop(char)
+		end)
+	end
+	
+	player.CharacterAdded:Connect(onCharacter)
+	
+	if player.Character then
+		onCharacter(player.Character)
+	end
+end
+coroutine.wrap(KWVI_fake_script)()
+local function CZXXJ_fake_script() -- bSliderFrame_6.mainScript 
+	local script = Instance.new('LocalScript', bSliderFrame_6)
+
+	-- Services
+	local Players = game:GetService("Players")
+	local UIS = game:GetService("UserInputService")
+	local RunService = game:GetService("RunService")
+	
+	local player = Players.LocalPlayer
+	
+	-- UI Elements
+	local slider = script.Parent
+	local slideFrame = slider:WaitForChild("slideFrame")
+	local amountValue = slider:WaitForChild("amountValue")
+	local parentRoot = slider.Parent.Parent
+	local wipButton = parentRoot:FindFirstChild("WipButton")
+	
+	-- Settings
+	local maxDistance = 10000
+	local attacking = false
+	local currentHand = "RightHand"
+	local wipEnabled = false
+	local currentTarget = nil
+	local dragging = false
+	local hitPartsList = { "Head" }
+	local minHealth = 1
+	local maxHealth = 100
+	local attackHealthThreshold = maxHealth
+	local attackInterval = 0.3
+	local lastAttackTime = 0
+	local PREDICTION_FACTOR = 1
+	
+	-- Character / Animation / Class
+	local humanoid
+	local character
+	local stylesFolder
+	local animationClassMap = {}
+	local lastClass = nil
+	
+	-- Keep track of the heartbeat connection for class updates
+	local classUpdateConnection
+	
+	-- =========================
+	-- Animation / Class Functions
+	-- =========================
+	local function getIdNumber(animation)
+		if not animation or not animation.AnimationId then return nil end
+		local id = animation.AnimationId:match("%d+")
+		return id and tonumber(id)
+	end
+	
+	local function scanStyles(folder, className)
+		for _, child in pairs(folder:GetChildren()) do
+			if child:IsA("Animation") then
+				local id = getIdNumber(child)
+				if id then
+					animationClassMap[id] = className
+				end
+			elseif child:IsA("Folder") then
+				scanStyles(child, className)
+			end
+		end
+	end
+	
+	local function updateClassFromAnimation()
+		if not humanoid then return end
+		local animator = humanoid:FindFirstChildOfClass("Animator")
+		if not animator then return end
+	
+		for _, track in pairs(animator:GetPlayingAnimationTracks()) do
+			local id = getIdNumber(track.Animation)
+			local className = id and animationClassMap[id]
+			if className then
+				lastClass = className
+				break
+			end
+		end
+	end
+	
+	local function onCharacterAdded(char)
+		character = char
+		humanoid = character:WaitForChild("Humanoid")
+		stylesFolder = character:WaitForChild("Core"):WaitForChild("Animations"):WaitForChild("Styles")
+		animationClassMap = {}
+		lastClass = nil
+	
+		for _, classFolder in pairs(stylesFolder:GetChildren()) do
+			if classFolder:IsA("Folder") then
+				scanStyles(classFolder, classFolder.Name)
+			end
+		end
+	
+		-- Disconnect previous heartbeat if exists
+		if classUpdateConnection then
+			classUpdateConnection:Disconnect()
+		end
+	
+		-- Reconnect heartbeat to constantly update class
+		classUpdateConnection = RunService.Heartbeat:Connect(updateClassFromAnimation)
+	
+		-- Force initial class update right after spawn
+		task.defer(updateClassFromAnimation)
+	end
+	
+	-- Initial bind and respawn bind
+	onCharacterAdded(player.Character or player.CharacterAdded:Wait())
+	player.CharacterAdded:Connect(onCharacterAdded)
+	
+	-- =========================
+	-- Utility Functions
+	-- =========================
+	local function isFightEquipped()
+		local tool = character and character:FindFirstChildOfClass("Tool")
+		return tool and tool.Name == "Fight"
+	end
+	
+	local function getRemote()
+		if not character then return end
+		local core = character:WaitForChild("Core")
+		local comm = core:WaitForChild("Communicate")
+		for _, v in pairs(comm:GetChildren()) do
+			if v:IsA("RemoteEvent") then
+				return v
+			end
+		end
+	end
+	
+	local function predictPosition(hrp)
+		return hrp.Position + (hrp.Velocity * attackInterval * PREDICTION_FACTOR)
+	end
+	
+	local function getClosest()
+		if not character then return end
+		local hrp = character:FindFirstChild("HumanoidRootPart")
+		if not hrp then return end
+	
+		local closest, dist = nil, math.huge
+		for _, plr in pairs(Players:GetPlayers()) do
+			if plr ~= player and plr.Character then
+				local targetHRP = plr.Character:FindFirstChild("HumanoidRootPart")
+				local humanoid = plr.Character:FindFirstChildOfClass("Humanoid")
+				if targetHRP and humanoid and humanoid.Health > 0 and humanoid.Health <= attackHealthThreshold then
+					local d = (hrp.Position - targetHRP.Position).Magnitude
+					if d < dist and d <= maxDistance then
+						dist = d
+						closest = plr
+					end
+				end
+			end
+		end
+		currentTarget = closest
+		return currentTarget
+	end
+	
+	local function stabilizeCharacter(hrp)
+		if not hrp then return end
+		hrp.Velocity = Vector3.new(0,0,0)
+		hrp.AssemblyLinearVelocity = Vector3.new(0,0,0)
+		hrp.AssemblyAngularVelocity = Vector3.new(0,0,0)
+	end
+	
+	-- =========================
+	-- Attack Function
+	-- =========================
+	local function performAttack()
+		local remote = getRemote()
+		if not remote or not character then return end
+	
+		local target = getClosest()
+		if not target or not target.Character then return end
+	
+		local tChar = target.Character
+		local hrp = tChar:FindFirstChild("HumanoidRootPart")
+		if not hrp then return end
+	
+		local myClass = lastClass or ""
+		local offHand = (currentHand == "RightHand") and "LeftHand" or "RightHand"
+	
+		for _, partName in pairs(hitPartsList) do
+			local hitPart = tChar:FindFirstChild(partName) or hrp
+			local args = {
+				"Attack",
+				{
+					Point = predictPosition(hrp),
+					Combo = 5,
+					Class = myClass,
+					IsKnockdown = false,
+					Character = tChar,
+					Hit = hitPart,
+					Limb = currentHand,
+					Result = nil
+				},
+				false
+			}
+	
+			remote:FireServer(unpack(args))
+			remote:FireServer("Swing", { Limb = currentHand })
+			remote:FireServer("Swing", { Limb = offHand })
+			currentHand = offHand
+		end
+	end
+	
+	-- =========================
+	-- Movement Loop
+	-- =========================
+	local moveConnection
+	local function startMovementLoop()
+		if moveConnection then return end
+		moveConnection = RunService.Heartbeat:Connect(function()
+			pcall(function()
+				if not attacking or not character then return end
+				if not isFightEquipped() then return end
+	
+				local hrp = character:FindFirstChild("HumanoidRootPart")
+				local target = getClosest()
+				if hrp then
+					if target and target.Character then
+						local tHRP = target.Character:FindFirstChild("HumanoidRootPart")
+						if tHRP then
+							stabilizeCharacter(hrp)
+							hrp.CFrame = CFrame.new(predictPosition(tHRP) + Vector3.new(0, -1, 2))
+						end
+					else
+						local spawn = player.RespawnLocation or workspace:FindFirstChild("SpawnLocation")
+						if spawn then
+							hrp.CFrame = spawn.CFrame + Vector3.new(0, 3, 0)
+						end
+					end
+				end
+			end)
+		end)
+	end
+	
+	local function stopMovementLoop()
+		if moveConnection then
+			moveConnection:Disconnect()
+			moveConnection = nil
+		end
+	end
+	
+	-- =========================
+	-- Attack Loop
+	-- =========================
+	local function startLoop()
+		if attacking then return end
+		attacking = true
+		startMovementLoop()
+		lastAttackTime = tick() - attackInterval
+	
+		task.spawn(function()
+			while attacking do
+				local now = tick()
+				if now - lastAttackTime >= attackInterval then
+					local target = getClosest()
+					if target and target.Character then
+						local humanoid = target.Character:FindFirstChildOfClass("Humanoid")
+						if humanoid and humanoid.Health > 0 then
+							performAttack()
+						end
+					end
+					lastAttackTime = now
+				end
+				task.wait(0.01)
+			end
+		end)
+	end
+	
+	local function stopLoop()
+		attacking = false
+		currentTarget = nil
+		stopMovementLoop()
+		if character then
+			local hrp = character:FindFirstChild("HumanoidRootPart")
+			if hrp then
+				local spawn = player.RespawnLocation or workspace:FindFirstChild("SpawnLocation")
+				if spawn then
+					hrp.CFrame = spawn.CFrame + Vector3.new(0, 3, 0)
+				end
+			end
+		end
+	end
+	
+	local function updateSlider(pos)
+		slideFrame:TweenSize(
+			UDim2.new(pos, 0, 1, 0),
+			Enum.EasingDirection.Out,
+			Enum.EasingStyle.Quad,
+			0.1,
+			true
+		)
+		local healthThreshold = math.floor(minHealth + pos * (maxHealth - minHealth))
+		amountValue.Text = tostring(healthThreshold)
+		attackHealthThreshold = healthThreshold
+	end
+	
+	local function updateSliderFromMouse()
+		local pos = math.clamp((UIS:GetMouseLocation().X - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
+		updateSlider(pos)
+	end
+	
+	slider.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			updateSliderFromMouse()
+		end
+	end)
+	
+	slider.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = false
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+			updateSliderFromMouse()
+		end
+	end)
+	
+	-- =========================
+	-- WIP Button
+	-- =========================
+	if wipButton then
+		wipButton.MouseButton1Down:Connect(function()
+			wipEnabled = not wipEnabled
+			if wipEnabled then
+				wipButton.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
+				startLoop()
+			else
+				wipButton.BackgroundColor3 = Color3.fromRGB(255, 11, 0)
+				stopLoop()
+			end
+		end)
+	end
+end
+coroutine.wrap(CZXXJ_fake_script)()
+local function UGRNQ_fake_script() -- TextLabel_25.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_25)
+
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	
+	local player = Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	
+	local parentRoot = script.Parent
+	local wipButton = parentRoot:FindFirstChild("WipButton")
+	
+	local MAX_DISTANCE = 50 -- target range
+	local attacking = false
+	local currentHand = "RightHand"
+	local wipEnabled = false
+	local hitPartsList = { "Head" }
+	local ATTACK_DELAY = 0.31 -- default attack delay
+	
+	-- =========================
+	-- ANIMATION / CLASS DETECTION
+	-- =========================
+	local stylesFolder = character:WaitForChild("Core"):WaitForChild("Animations"):WaitForChild("Styles")
+	local animationClassMap = {}
+	local lastClass = nil
+	
+	local function getIdNumber(animation)
+		if not animation or not animation.AnimationId then return nil end
+		local id = animation.AnimationId:match("%d+")
+		return id and tonumber(id)
+	end
+	
+	local function scanStyles(folder, className)
+		for _, child in pairs(folder:GetChildren()) do
+			if child:IsA("Animation") then
+				local id = getIdNumber(child)
+				if id then
+					animationClassMap[id] = className
+				end
+			elseif child:IsA("Folder") then
+				scanStyles(child, className)
+			end
+		end
+	end
+	
+	for _, classFolder in pairs(stylesFolder:GetChildren()) do
+		if classFolder:IsA("Folder") then
+			scanStyles(classFolder, classFolder.Name)
+		end
+	end
+	
+	local function updateClassFromAnimation()
+		local animator = humanoid:FindFirstChildOfClass("Animator")
+		if not animator then return end
+	
+		for _, track in pairs(animator:GetPlayingAnimationTracks()) do
+			local id = getIdNumber(track.Animation)
+			local className = id and animationClassMap[id]
+			if className then
+				lastClass = className
+				break
+			end
+		end
+	end
+	
+	RunService.Heartbeat:Connect(updateClassFromAnimation)
+	
+	-- =========================
+	-- UTILITIES
+	-- =========================
+	local function isFightEquipped()
+		local char = player.Character
+		if not char then return false end
+		local tool = char:FindFirstChildOfClass("Tool")
+		return tool and tool.Name == "Fight"
+	end
+	
+	local function getRemote()
+		local char = player.Character or player.CharacterAdded:Wait()
+		local core = char:WaitForChild("Core")
+		local comm = core:WaitForChild("Communicate")
+	
+		for _, v in pairs(comm:GetChildren()) do
+			if v:IsA("RemoteEvent") then
+				return v
+			end
+		end
+	end
+	
+	local function predictPosition(hrp)
+		if not hrp then return end
+		return hrp.Position + (hrp.Velocity * ATTACK_DELAY * 0.5)
+	end
+	
+	local function stabilizeCharacter(hrp)
+		if not hrp then return end
+		hrp.Velocity = Vector3.new(0,0,0)
+		hrp.AssemblyLinearVelocity = Vector3.new(0,0,0)
+		hrp.AssemblyAngularVelocity = Vector3.new(0,0,0)
+	end
+	
+	-- =========================
+	-- ATTACK FUNCTION
+	-- =========================
+	local function attack()
+		local remote = getRemote()
+		if not remote then return end
+	
+		local target = nil
+		local myHRP = player.Character and player.Character:FindFirstChild("HumanoidRootPart")
+		if not myHRP then return end
+	
+		-- Only target friends at 0 health
+		for _, plr in pairs(Players:GetPlayers()) do
+			if plr ~= player and plr.Character then
+				local hrp = plr.Character:FindFirstChild("HumanoidRootPart")
+				local humanoid = plr.Character:FindFirstChildOfClass("Humanoid")
+				if hrp and humanoid and humanoid.Health <= 0 and player:IsFriendsWith(plr.UserId) then
+					local distance = (myHRP.Position - hrp.Position).Magnitude
+					if distance <= MAX_DISTANCE then
+						target = plr
+						break
+					end
+				end
+			end
+		end
+	
+		if not target or not target.Character then return end
+	
+		local tChar = target.Character
+		local hrp = tChar:FindFirstChild("HumanoidRootPart")
+		if not hrp then return end
+	
+		local myClass = lastClass
+		local offHand = (currentHand == "RightHand") and "LeftHand" or "RightHand"
+	
+		for _, partName in pairs(hitPartsList) do
+			local hitPart = tChar:FindFirstChild(partName) or hrp
+			local args = {
+				"Attack",
+				{
+					Point = predictPosition(hrp),
+					Combo = 5,
+					Class = myClass,
+					IsKnockdown = false,
+					Character = tChar,
+					Hit = hitPart,
+					Limb = currentHand,
+					Classs = "",
+					Result = nil
+				},
+				false
+			}
+	
+			remote:FireServer(unpack(args))
+			remote:FireServer("Swing", {Limb = currentHand})
+			remote:FireServer("Swing", {Limb = offHand})
+			currentHand = offHand
+		end
+	end
+	
+	-- =========================
+	-- MOVEMENT LOOP
+	-- =========================
+	local moveConnection
+	local function startMovementLoop()
+		if moveConnection then return end
+		moveConnection = RunService.Heartbeat:Connect(function()
+			if not attacking then return end
+			local char = player.Character
+			local myHRP = char and char:FindFirstChild("HumanoidRootPart")
+			if not myHRP or not isFightEquipped() then return end
+	
+			for _, plr in pairs(Players:GetPlayers()) do
+				if plr ~= player and plr.Character then
+					local hrp = plr.Character:FindFirstChild("HumanoidRootPart")
+					local humanoid = plr.Character:FindFirstChildOfClass("Humanoid")
+					if hrp and humanoid and humanoid.Health <= 0 and player:IsFriendsWith(plr.UserId) then
+						local distance = (myHRP.Position - hrp.Position).Magnitude
+						if distance <= MAX_DISTANCE then
+							stabilizeCharacter(myHRP)
+							myHRP.CFrame = CFrame.new(predictPosition(hrp) + Vector3.new(0,0,1))
+							break
+						end
+					end
+				end
+			end
+		end)
+	end
+	
+	local function stopMovementLoop()
+		if moveConnection then
+			moveConnection:Disconnect()
+			moveConnection = nil
+		end
+	end
+	
+	-- =========================
+	-- LOOP
+	-- =========================
+	local function startLoop()
+		if attacking then return end
+		attacking = true
+		startMovementLoop()
+	
+		task.spawn(function()
+			while attacking do
+				attack()
+				task.wait(ATTACK_DELAY)
+			end
+		end)
+	end
+	
+	local function stopLoop()
+		attacking = false
+		stopMovementLoop()
+	end
+	
+	-- =========================
+	-- WIP BUTTON
+	-- =========================
+	if wipButton then
+		wipButton.MouseButton1Click:Connect(function()
+			wipEnabled = not wipEnabled
+			if wipEnabled then
+				wipButton.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
+				startLoop()
+			else
+				wipButton.BackgroundColor3 = Color3.fromRGB(255, 11, 0)
+				stopLoop()
+			end
+		end)
+	end
+end
+coroutine.wrap(UGRNQ_fake_script)()
+local function EKGSV_fake_script() -- TextLabel_26.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_26)
+
+	
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local button = script.Parent:FindFirstChild("WipButton")
+	local textbox = script.Parent:WaitForChild("AnimSpeed")
+	
+	local TARGET_NAMES = {
+		["1"] = true,
+		["2"] = true,
+		["3"] = true,
+		["4"] = true,
+	}
+	
+	local Toggle = false
+	local loopRunning = false
+	local c = 0.1
+	local lastClick = 0
+	
+	local on = Color3.fromRGB(51, 255, 47)
+	local off = Color3.fromRGB(255, 0, 0)
+	
+	button.BackgroundColor3 = off
+	
+	-- =======================
+	-- Functions
+	-- =======================
+	local function getSpeed()
+		local num = tonumber(textbox.Text)
+		if num and num > 0 then
+			return math.clamp(num, 0, 20) -- ensures speed is between 0 and 20
+		end
+		return nil
+	end
+	
+	local function animationLoop()
+		if loopRunning then return end
+		loopRunning = true
+	
+		while Toggle do
+			local character = player.Character
+			if character then
+				local humanoid = character:FindFirstChildOfClass("Humanoid")
+				local animator = humanoid and humanoid:FindFirstChildOfClass("Animator")
+	
+				if animator then
+					local speed = getSpeed()
+					if speed then
+						for _, track in ipairs(animator:GetPlayingAnimationTracks()) do
+							if track.Name and TARGET_NAMES[track.Name] then
+								if track.IsPlaying then
+									track:AdjustSpeed(speed)
+								end
+							end
+						end
+					end
+				end
+			end
+	
+			task.wait(0.1)
+		end
+	
+		loopRunning = false
+	end
+	
+	local function toggleButton()
+		if tick() - lastClick < c then return end
+		lastClick = tick()
+	
+		Toggle = not Toggle
+	
+		if Toggle then
+			button.BackgroundColor3 = on
+			task.spawn(animationLoop) -- run asynchronously
+		else
+			button.BackgroundColor3 = off
+		end
+	end
+	
+	button.MouseButton1Click:Connect(toggleButton)
+	button.TouchTap:Connect(toggleButton)
+end
+coroutine.wrap(EKGSV_fake_script)()
+local function VKKKRSD_fake_script() -- TextLabel_27.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_27)
+
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	
+	local player = Players.LocalPlayer
+	
+	-- Toggle Button
+	local parentRoot = script.Parent
+	local wipButton = parentRoot:FindFirstChild("WipButton")
+	
+	local attacking = false
+	local attackConnection
+	local currentHand = "RightHand"
+	local attackInterval = 0.34
+	local lastAttackTime = 0
+	
+	local function getRemote()
+		local character = player.Character
+		if not character then return end
+	
+		local core = character:FindFirstChild("Core")
+		if not core then return end
+	
+		local comm = core:FindFirstChild("Communicate")
+		if not comm then return end
+	
+		for _, v in pairs(comm:GetChildren()) do
+			if v:IsA("RemoteEvent") then
+				return v
+			end
+		end
+	end
+	
+	local function performSwing()
+		local now = tick()
+		if now - lastAttackTime < attackInterval then
+			return
+		end
+		lastAttackTime = now
+	
+		local remote = getRemote()
+		local character = player.Character
+		if not remote or not character then return end
+	
+		local offHand = (currentHand == "RightHand") and "LeftHand" or "RightHand"
+	
+		-- Attack Remote
+		remote:FireServer("Attack", {
+			Limb = currentHand
+		})
+	
+		-- Swing Remotes
+		remote:FireServer("Swing", {
+			Limb = currentHand
+		})
+		remote:FireServer("Swing", {
+			Limb = offHand
+		})
+	
+		currentHand = offHand
+	end
+	
+	local function startLoop()
+		if attackConnection then
+			attackConnection:Disconnect()
+		end
+	
+		attackConnection = RunService.Heartbeat:Connect(function()
+			if attacking then
+				performSwing()
+			end
+		end)
+	end
+	
+	local function stopLoop()
+		if attackConnection then
+			attackConnection:Disconnect()
+			attackConnection = nil
+		end
+	end
+	
+	if wipButton then
+		wipButton.MouseButton1Down:Connect(function()
+			attacking = not attacking
+	
+			if attacking then
+				wipButton.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
+				startLoop()
+			else
+				wipButton.BackgroundColor3 = Color3.fromRGB(255, 11, 0)
+				stopLoop()
+			end
+		end)
+	end
+end
+coroutine.wrap(VKKKRSD_fake_script)()
+local function YHXK_fake_script() -- TextLabel_28.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_28)
+
+	local parentRoot = script.Parent
+	local wipButton = parentRoot:FindFirstChild("WipButton")
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	
+	local attacking = false
+	
+	local function buyWeapon()
+		local args = {
+			"BuyWeapon",
+			"Boxing Gloves"
+		}
+		local remote = player:WaitForChild("Communicate"):WaitForChild("Interface"):WaitForChild("RemoteEvent")
+		remote:FireServer(unpack(args))
+	end
+	
+	if wipButton then
+		wipButton.MouseButton1Down:Connect(function()
+			attacking = not attacking
+	
+			if attacking then
+				wipButton.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
+				buyWeapon()
+	
+				player.CharacterAdded:Connect(function()
+					wait(1)
+					buyWeapon()
+				end)
+			else
+				wipButton.BackgroundColor3 = Color3.fromRGB(255, 11, 0)
+			end
+		end)
+	end
+end
+coroutine.wrap(YHXK_fake_script)()
+local function QUJIMSN_fake_script() -- TextLabel_29.mainScript 
+	local script = Instance.new('LocalScript', TextLabel_29)
+
+	-- Services
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	local player = Players.LocalPlayer
+	
+	-- Button
+	local button = script.Parent:WaitForChild("WipButton")
+	local onColor = Color3.fromRGB(51, 255, 47)
+	local offColor = Color3.fromRGB(255, 0, 0)
+	button.BackgroundColor3 = offColor
+	
+	-- =========================
+	-- Auto-Heavy Settings
+	-- =========================
+	local attackInterval = 0.35
+	local PREDICTION_FACTOR = 1
+	local hitPartsList = { "Head" }
+	local attackHealthThreshold = 100
+	local currentHand = "RightHand"
+	local maxDistance = 10000
+	
+	-- Character / Animation / Class
+	local humanoid
+	local character
+	local stylesFolder
+	local animationClassMap = {}
+	local lastClass = nil
+	local classUpdateConnection
+	
+	-- =========================
+	-- Animation / Class Functions
+	-- =========================
+	local function getIdNumber(animation)
+		if not animation or not animation.AnimationId then return nil end
+		local id = animation.AnimationId:match("%d+")
+		return id and tonumber(id)
+	end
+	
+	local function scanStyles(folder, className)
+		for _, child in pairs(folder:GetChildren()) do
+			if child:IsA("Animation") then
+				local id = getIdNumber(child)
+				if id then
+					animationClassMap[id] = className
+				end
+			elseif child:IsA("Folder") then
+				scanStyles(child, className)
+			end
+		end
+	end
+	
+	local function updateClassFromAnimation()
+		if not humanoid then return end
+		local animator = humanoid:FindFirstChildOfClass("Animator")
+		if not animator then return end
+	
+		for _, track in pairs(animator:GetPlayingAnimationTracks()) do
+			local id = getIdNumber(track.Animation)
+			local className = id and animationClassMap[id]
+			if className then
+				lastClass = className
+				break
+			end
+		end
+	end
+	
+	local function onCharacterAdded(char)
+		character = char
+		humanoid = character:WaitForChild("Humanoid")
+		stylesFolder = character:WaitForChild("Core"):WaitForChild("Animations"):WaitForChild("Styles")
+		animationClassMap = {}
+		lastClass = nil
+	
+		for _, classFolder in pairs(stylesFolder:GetChildren()) do
+			if classFolder:IsA("Folder") then
+				scanStyles(classFolder, classFolder.Name)
+			end
+		end
+	
+		if classUpdateConnection then
+			classUpdateConnection:Disconnect()
+		end
+	
+		classUpdateConnection = RunService.Heartbeat:Connect(updateClassFromAnimation)
+	
+		task.defer(updateClassFromAnimation)
+	end
+	
+	-- Initial bind and respawn bind
+	onCharacterAdded(player.Character or player.CharacterAdded:Wait())
+	player.CharacterAdded:Connect(onCharacterAdded)
+	
+	-- =========================
+	-- Utility Functions
+	-- =========================
+	local function getRemote()
+		if not character then return end
+		local core = character:WaitForChild("Core")
+		local comm = core:WaitForChild("Communicate")
+		for _, v in pairs(comm:GetChildren()) do
+			if v:IsA("RemoteEvent") then
+				return v
+			end
+		end
+	end
+	
+	local function predictPosition(hrp)
+		return hrp.Position + (hrp.Velocity * attackInterval * PREDICTION_FACTOR)
+	end
+	
+	local function hasHighlight(plr)
+		if not plr.Character then return false end
+		if plr.Character:FindFirstChildOfClass("Highlight") then return true end
+		local liveFolder = workspace:FindFirstChild("Live")
+		if liveFolder then
+			for _, item in pairs(liveFolder:GetChildren()) do
+				if item:IsA("Model") and item == plr.Character then
+					if item:FindFirstChildOfClass("Highlight") then
+						return true
+					end
+				end
+			end
+		end
+		return false
+	end
+	
+	local function getRandomTarget()
+		local candidates = {}
+		for _, plr in pairs(Players:GetPlayers()) do
+			if plr ~= player and plr.Character then
+				local hrp = plr.Character:FindFirstChild("HumanoidRootPart")
+				local humanoid = plr.Character:FindFirstChildOfClass("Humanoid")
+				if hrp and humanoid and humanoid.Health > 0 and humanoid.Health <= attackHealthThreshold then
+					if not hasHighlight(plr) then
+						table.insert(candidates, plr)
+					end
+				end
+			end
+		end
+		if #candidates > 0 then
+			return candidates[math.random(1, #candidates)]
+		end
+		return nil
+	end
+	
+	local function performAttack(target)
+		if not target or not target.Character or not character then return end
+		local tChar = target.Character
+		local hrp = tChar:FindFirstChild("HumanoidRootPart")
+		if not hrp then return end
+	
+		local remote = getRemote()
+		if not remote then return end
+	
+		local myClass = lastClass or ""
+		local offHand = (currentHand == "RightHand") and "LeftHand" or "RightHand"
+	
+		for _, partName in pairs(hitPartsList) do
+			local hitPart = tChar:FindFirstChild(partName) or hrp
+			local args = {
+				"Heavy",
+				{
+					Point = predictPosition(hrp),
+					Combo = 5,
+					Class = myClass,
+					IsKnockdown = false,
+					Character = tChar,
+					Hit = hitPart,
+					Limb = currentHand,
+					Result = nil
+				},
+				false
+			}
+	
+			remote:FireServer(unpack(args))
+			remote:FireServer("Swing", { Limb = currentHand })
+			remote:FireServer("Swing", { Limb = offHand })
+			currentHand = offHand
+		end
+	end
+	
+	-- =========================
+	-- Teleport / RunService
+	-- =========================
+	local teleportConnection
+	
+	local function startTeleportLoop(target)
+		if teleportConnection then
+			teleportConnection:Disconnect()
+		end
+	
+		teleportConnection = RunService.Heartbeat:Connect(function()
+			if not target or not target.Character or not character then return end
+			local myHRP = character:FindFirstChild("HumanoidRootPart")
+			local tHRP = target.Character:FindFirstChild("HumanoidRootPart")
+			if not myHRP or not tHRP then return end
+	
+			-- Disable collisions
+			for _, part in ipairs(character:GetDescendants()) do
+				if part:IsA("BasePart") then
+					part.CanCollide = false
+				end
+			end
+	
+			-- Teleport and rotate
+			local underPos = tHRP.Position + Vector3.new(0, -6.5, 0)
+			myHRP.CFrame = CFrame.new(underPos, underPos + Vector3.new(0, 1, 0)) * CFrame.Angles(math.rad(180), 0, 0)
+		end)
+	end
+	
+	local function stopTeleportLoop()
+		if teleportConnection then
+			teleportConnection:Disconnect()
+			teleportConnection = nil
+		end
+	end
+	
+	-- =========================
+	-- Toggle Loop
+	-- =========================
+	local Toggle = false
+	local loopRunning = false
+	
+	button.MouseButton1Click:Connect(function()
+		Toggle = not Toggle
+		button.BackgroundColor3 = Toggle and onColor or offColor
+	
+		if Toggle and not loopRunning then
+			loopRunning = true
+			task.spawn(function()
+				local currentTarget = nil
+				local lastAttackTime = 0
+	
+				while Toggle do
+					if not currentTarget or not currentTarget.Character then
+						currentTarget = getRandomTarget()
+					else
+						local hum = currentTarget.Character:FindFirstChildOfClass("Humanoid")
+						if not hum or hum.Health <= 0 then
+							currentTarget = getRandomTarget()
+						end
+					end
+	
+					if currentTarget and currentTarget.Character then
+						local hum = currentTarget.Character:FindFirstChildOfClass("Humanoid")
+						if hum and hum.Health > 0 then
+							startTeleportLoop(currentTarget)  -- Teleport every frame
+	
+							local now = tick()
+							if now - lastAttackTime >= attackInterval then
+								performAttack(currentTarget)
+								lastAttackTime = now
+							end
+						end
+					end
+	
+					task.wait()
+				end
+	
+				stopTeleportLoop()  -- Stop teleport immediately
+				loopRunning = false
+			end)
+		else
+			stopTeleportLoop()
+		end
+	end) 
+end
+coroutine.wrap(QUJIMSN_fake_script)()
